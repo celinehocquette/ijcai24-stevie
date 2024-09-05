@@ -1,0 +1,4 @@
+maptimestwo(A,B):- empty(A),empty(B).
+maptimestwo(A,B):- head(A,C),tail(A,E),head(B,D),tail(B,F),double(C,D),maptimestwo(E,F).
+% accuracy: 1.0
+% learning time: 517.7478780660022

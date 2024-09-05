@@ -1,0 +1,4 @@
+allthree(A):- ho_14(A,empty,tail,inv_ho_0).
+inv_ho_0(A):- decrement(A,B),decrement(B,C),one_in(C).
+% accuracy: 1.0
+% learning time: 526.383213209

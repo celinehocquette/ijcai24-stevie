@@ -1,0 +1,3 @@
+memberzero(A):- ho_19(A,B,tail,even),ho_19(A,B,tail,zero_in).
+% accuracy: 0.959
+% learning time: 3.153278806000344

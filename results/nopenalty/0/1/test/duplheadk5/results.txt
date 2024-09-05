@@ -1,0 +1,3 @@
+duplheadk5(A,B):- ho_1(A,B,duplhead).
+% accuracy: 1.0
+% learning time: 5.0476302210008726

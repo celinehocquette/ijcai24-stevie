@@ -1,0 +1,8 @@
+allgeqfour(A):- ho_222(A,odd).
+inv_ho_0(A,B):- geq(B,A).
+allgeqfour(A):- tail(A,C),tail(C,B),tail(B,D),ho_445(D,tail,head,inv_ho_0).
+allgeqfour(A):- head(A,D),ho_238(A,E,tail,odd),my_succ(C,D),my_succ(B,C),head(E,B).
+allgeqfour(A):- tail(A,E),head(E,D),ho_172(D,E,C,tail),head(C,B),geq(B,D).
+allgeqfour(A):- head(A,B),ho_238(A,D,tail,even),head(D,B),tail(D,C),empty(C).
+% accuracy: 0.468
+% learning time: 823.9082677980005

@@ -1,0 +1,4 @@
+decrement_seq2(A):- ho_186(A,inv_ho_0).
+inv_ho_0(A,B):- decrement(A,C),decrement(C,B).
+% accuracy: 1.0
+% learning time: 94.1192238879994

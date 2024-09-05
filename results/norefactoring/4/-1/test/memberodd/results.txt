@@ -1,0 +1,4 @@
+memberodd(A):- head(A,B),odd(B).
+memberodd(A):- tail(A,B),memberodd(B).
+% accuracy: 1.0
+% learning time: 2.133485917

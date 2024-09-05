@@ -1,0 +1,3 @@
+maptimestwo(A,B):- convlist(A,B,double).
+% accuracy: 1.0
+% learning time: 4.077439708999999

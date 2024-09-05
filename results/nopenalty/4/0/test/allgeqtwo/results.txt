@@ -1,0 +1,4 @@
+allgeqtwo(A):- ho_4(A,inv_ho_0).
+inv_ho_0(A):- my_succ(B,A),one(C),geq(B,C).
+% accuracy: 1.0
+% learning time: 23.004329625

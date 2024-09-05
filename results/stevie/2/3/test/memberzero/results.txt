@@ -1,0 +1,3 @@
+memberzero(A):- ho_194(A,zero_in).
+% accuracy: 1.0
+% learning time: 3.993007224999019

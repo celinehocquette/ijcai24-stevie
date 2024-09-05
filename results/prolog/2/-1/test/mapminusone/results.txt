@@ -1,0 +1,3 @@
+mapminusone(A,B):- convlist(A,B,decrement).
+% accuracy: 1.0
+% learning time: 4.74516525

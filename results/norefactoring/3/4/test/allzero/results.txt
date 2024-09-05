@@ -1,0 +1,4 @@
+allzero(A):- empty(A).
+allzero(A):- head(A,B),tail(A,C),zero_in(B),allzero(C).
+% accuracy: 1.0
+% learning time: 5.565055583

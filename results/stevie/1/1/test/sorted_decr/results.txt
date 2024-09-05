@@ -1,0 +1,3 @@
+sorted_decr(A):- ho_188(A,geq).
+% accuracy: 1.0
+% learning time: 2.498027230999469

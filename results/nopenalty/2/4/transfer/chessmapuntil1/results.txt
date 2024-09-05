@@ -1,0 +1,3 @@
+chessmapuntil1(A,B):- ho_45(A,neg_rank8),ho_45(B,rank8).
+% accuracy: 0.997
+% learning time: 5.799470670004666

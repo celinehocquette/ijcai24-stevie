@@ -1,0 +1,3 @@
+minlistminus3(A,B):- ho_213(A,C,c100,tail,min),decrement(C,D),decrement(D,E),decrement(E,B).
+% accuracy: 1.0
+% learning time: 181.55482483600645

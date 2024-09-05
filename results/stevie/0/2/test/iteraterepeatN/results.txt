@@ -1,0 +1,3 @@
+iteraterepeatN(A,B,C):- ho_15(A,B,C,duplhead).
+% accuracy: 1.0
+% learning time: 2.0108449199997267

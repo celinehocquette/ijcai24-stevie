@@ -1,0 +1,3 @@
+maptimestwo(A,B):- maplist(A,B,double).
+% accuracy: 1.0
+% learning time: 4.6517487079999995

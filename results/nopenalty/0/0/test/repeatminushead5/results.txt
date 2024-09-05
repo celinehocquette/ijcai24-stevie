@@ -1,0 +1,3 @@
+repeatminushead5(A,B):- minushead1(A,D),minushead1(D,E),minushead1(E,F),minushead1(F,C),minushead1(C,B).
+% accuracy: 1.0
+% learning time: 1.8577741240005707

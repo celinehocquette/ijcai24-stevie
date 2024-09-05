@@ -1,0 +1,3 @@
+chartoint(A,B):- ho_251(A,B,ord).
+% accuracy: 1.0
+% learning time: 1.9050740580023557

@@ -1,0 +1,3 @@
+dropfirst5(A,B):- ho_1(A,B,tail).
+% accuracy: 1.0
+% learning time: 2.146784380000099

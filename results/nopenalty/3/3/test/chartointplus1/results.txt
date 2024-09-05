@@ -1,0 +1,4 @@
+chartointplus1(A,B):- ho_187(A,B,empty,tail,inv_ho_0).
+inv_ho_0(A,B):- ord(A,C),increment(C,B).
+% accuracy: 1.0
+% learning time: 24.11918022300233

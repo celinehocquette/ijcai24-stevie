@@ -1,0 +1,4 @@
+dropk(A,B,C):- increment(A,D),eq_list(B,C),decrement(D,A).
+dropk(A,B,C):- tail(B,D),dropk(A,D,C).
+% accuracy: 0.9995
+% learning time: 9.251799584992114

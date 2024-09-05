@@ -1,0 +1,3 @@
+alleven(A):- ho_45(A,even).
+% accuracy: 1.0
+% learning time: 1.7389704900051584

@@ -1,0 +1,3 @@
+memberodd(A):- ho_139(A,head,odd).
+% accuracy: 1.0
+% learning time: 18.36608553500264

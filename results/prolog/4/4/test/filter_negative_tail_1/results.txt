@@ -1,0 +1,3 @@
+filter_negative_tail_1(A,B):- partition(A,C,D,positive),partition(A,D,C,negative),tail(C,B).
+% accuracy: 1.0
+% learning time: 66.928029917

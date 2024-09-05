@@ -1,0 +1,3 @@
+mapminusone(A,B):- maplist(A,B,decrement).
+% accuracy: 1.0
+% learning time: 4.01922675

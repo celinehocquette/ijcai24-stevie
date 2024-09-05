@@ -1,0 +1,3 @@
+allnegative(A):- ho_490(A,B,negative,one_in),empty(B).
+% accuracy: 1.0
+% learning time: 35.94859092700062

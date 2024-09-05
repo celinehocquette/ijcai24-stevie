@@ -1,0 +1,3 @@
+addhead6(A,B):- ho_1(A,C,addhead1),addhead1(C,B).
+% accuracy: 1.0
+% learning time: 244.79633825400015

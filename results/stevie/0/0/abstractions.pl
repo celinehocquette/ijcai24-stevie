@@ -1,0 +1,7 @@
+ho_102(A,B,P,Q) :- empty(A),P(B)
+ho_102(A,B,P,Q) :- head(A,C),tail(A,D),ho_102(D,E,P,Q),Q(C,E,B)
+ho_1(A,B,P) :- P(A,C),P(C,D),P(D,E),P(E,F),P(F,B)
+ho_2(A,P) :- head(A,B),P(B)
+ho_2(A,P) :- tail(A,B),ho_2(B,P)
+ho_182(A,B,P) :- empty(A),empty(B)
+ho_182(A,B,P) :- head(A,C),tail(A,D),head(B,E),tail(B,F),P(C,E),ho_182(D,F,P)

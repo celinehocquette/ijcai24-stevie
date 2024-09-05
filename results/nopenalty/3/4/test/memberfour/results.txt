@@ -1,0 +1,5 @@
+memberfour(A):- ho_1(A,B,tail),ho_25(B,head,even).
+memberfour(A):- head(A,B),tail(A,C),ho_8(A,C,tail,head,odd),even(B).
+memberfour(A):- ho_8(A,B,tail,head,even),ho_13(A,zero_in,tail),tail(B,C),empty(C).
+% accuracy: 0.5095
+% learning time: 825.5134369159932

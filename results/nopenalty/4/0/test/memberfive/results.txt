@@ -1,0 +1,9 @@
+inv_ho_0(A,B):- ho_1(A,B,tail).
+memberfive(A):- ho_1(A,B,tail),ho_4(B,one_in).
+memberfive(A):- ho_1(A,C,inv_ho_0),head(C,B),odd(B).
+memberfive(A):- tail(A,B),tail(B,D),tail(D,C),ho_4(C,odd).
+memberfive(A):- ho_1(A,B,tail),ho_1(B,D,inv_ho_0),head(D,C),one_in(C).
+memberfive(A):- tail(A,B),ho_1(A,C,tail),tail(B,E),head(C,D),head(E,D).
+memberfive(A):- tail(A,D),ho_1(D,B,tail),head(B,C),even(C),head(D,E),odd(E).
+% accuracy: 0.499
+% learning time: 480.229477166

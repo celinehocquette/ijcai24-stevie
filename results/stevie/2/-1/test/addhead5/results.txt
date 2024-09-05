@@ -1,0 +1,3 @@
+addhead5(A,B):- addhead1(A,D),addhead1(D,C),addhead1(C,E),addhead1(E,F),addhead1(F,B).
+% accuracy: 1.0
+% learning time: 0.6368352179999874

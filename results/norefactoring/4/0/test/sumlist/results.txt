@@ -1,0 +1,4 @@
+sum_list(A,B):- empty(A),zero(B).
+sum_list(A,B):- head(A,D),tail(A,E),sum_list(E,C),sum(C,D,B).
+% accuracy: 1.0
+% learning time: 122.665342416

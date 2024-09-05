@@ -1,0 +1,4 @@
+increment_seq4(A):- ho_9(A,inv_ho_0).
+inv_ho_0(A,B):- increment(A,C),increment(C,E),increment(E,D),increment(D,B).
+% accuracy: 1.0
+% learning time: 54.53913815700071

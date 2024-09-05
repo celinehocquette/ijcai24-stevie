@@ -1,0 +1,3 @@
+dropuntileven(A,B):- ho_21(A,B,tail,even).
+% accuracy: 1.0
+% learning time: 0.7701169359997948

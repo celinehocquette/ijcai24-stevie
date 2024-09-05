@@ -1,0 +1,4 @@
+f(A,B,C):- ho_16(A,B,C,inv_ho_0).
+inv_ho_0(A,B):- head(A,C),cons1(A,C,D),tail(D,B).
+% accuracy: 1.0
+% learning time: 29.372046980999585

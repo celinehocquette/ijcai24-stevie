@@ -1,0 +1,4 @@
+mapfilter_triple_positive(A,B):- convlist(A,B,inv_ho_0).
+inv_ho_0(A,B):- triple(A,B),negative(B).
+% accuracy: 1.0
+% learning time: 275.203545833

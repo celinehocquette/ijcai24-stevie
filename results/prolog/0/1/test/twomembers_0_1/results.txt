@@ -1,0 +1,4 @@
+twomembers_0_1(A):- partition(A,B,C,zero),convlist(C,B,inv_ho_0).
+inv_ho_0(A,B):- one(A),decrement(A,B).
+% accuracy: 0.8405
+% learning time: 89.644546791

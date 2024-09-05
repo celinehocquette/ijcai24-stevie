@@ -1,0 +1,4 @@
+maptimesthree(A,B):- empty(A),empty(B).
+maptimesthree(A,B):- head(A,E),tail(A,F),head(B,C),tail(B,D),triple(E,C),maptimesthree(F,D).
+% accuracy: 1.0
+% learning time: 389.3388493380007

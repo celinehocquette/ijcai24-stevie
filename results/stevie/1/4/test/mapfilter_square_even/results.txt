@@ -1,0 +1,3 @@
+mapfilter_square_even(A,B):- ho_14(A,negative),ho_14(B,odd).
+% accuracy: 0.998
+% learning time: 11.60700178099978

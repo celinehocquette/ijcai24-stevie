@@ -1,0 +1,3 @@
+count_one(A,B):- ho_103(A,B,empty,zero_in,one).
+% accuracy: 1.0
+% learning time: 2.5798214040005405

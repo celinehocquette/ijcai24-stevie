@@ -1,0 +1,3 @@
+mapfunc_double_tail(A,B):- tail(A,C),ho_164(C,B,double).
+% accuracy: 1.0
+% learning time: 576.2584508

@@ -1,0 +1,5 @@
+filter_even_tail_3(A,B):- ho_487(A,C,negative,positive),ho_487(C,B,positive,zero).
+filter_even_tail_3(A,B):- tail(A,C),ho_487(C,D,even,odd),ho_487(D,B,positive,odd).
+filter_even_tail_3(A,B):- ho_487(A,D,even,odd),ho_487(D,C,negative,odd),tail(C,B).
+% accuracy: 0.677
+% learning time: 462.5245315409993

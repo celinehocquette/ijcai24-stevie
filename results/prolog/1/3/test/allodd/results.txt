@@ -1,0 +1,3 @@
+allodd(A):- partition(A,C,B,even),partition(B,C,A,even).
+% accuracy: 1.0
+% learning time: 4.869593791

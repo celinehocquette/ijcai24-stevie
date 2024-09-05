@@ -1,0 +1,7 @@
+addlast15(A,B):- ho_238(A,B,inv_ho_0,odd).
+inv_ho_0(A,B):- ho_1(A,B,addlast1).
+addlast15(A,B):- ho_238(A,B,addlast1,zero).
+addlast15(A,B):- ho_238(A,B,addlast1,even),ho_238(A,C,tail,zero),ho_222(C,even).
+addlast15(A,B):- ho_238(A,B,addlast1,even),tail(A,C),ho_160(C,zero,addlast1).
+% accuracy: 0.6925
+% learning time: 354.4284165509998

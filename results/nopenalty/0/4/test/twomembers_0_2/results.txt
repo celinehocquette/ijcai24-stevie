@@ -1,0 +1,5 @@
+inv_ho_0(A):- decrement(A,B),one(B).
+twomembers_0_2(A):- ho_238(A,B,tail,zero),ho_160(B,inv_ho_0,tail).
+twomembers_0_2(A):- ho_238(A,B,tail,even),ho_222(B,zero).
+% accuracy: 0.763
+% learning time: 407.3356805149997

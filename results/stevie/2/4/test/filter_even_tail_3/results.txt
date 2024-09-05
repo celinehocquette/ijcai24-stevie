@@ -1,0 +1,5 @@
+filter_even_tail_3(A,B):- ho_176(A,C,even,odd),ho_176(C,B,negative,odd).
+filter_even_tail_3(A,B):- ho_176(A,C,even,odd),tail(C,D),ho_176(D,B,positive,odd).
+filter_even_tail_3(A,B):- ho_1(A,C,tail),tail(C,D),ho_176(D,B,even,odd).
+% accuracy: 0.624
+% learning time: 239.45356685700062

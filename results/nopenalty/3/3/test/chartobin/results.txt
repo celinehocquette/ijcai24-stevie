@@ -1,0 +1,4 @@
+chartobin(A,B):- ho_187(A,B,empty,tail,inv_ho_0).
+inv_ho_0(A,B):- ord(A,C),bin(C,B).
+% accuracy: 1.0
+% learning time: 80.23538476999965

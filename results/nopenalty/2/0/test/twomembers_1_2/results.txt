@@ -1,0 +1,6 @@
+twomembers_1_2(A):- head(A,C),empty(B),ho_42(C,A,D,odd,tail,tail),ho_42(C,D,B,one,tail,tail).
+twomembers_1_2(A):- ho_14(A,C,tail,head,even),tail(C,B),tail(B,D),ho_275(C,D,even,odd).
+twomembers_1_2(A):- ho_14(A,C,tail,head,even),ho_275(C,D,even,odd),head(D,B),one(B).
+twomembers_1_2(A):- head(A,C),empty(B),ho_42(C,A,D,even,tail,tail),ho_42(C,D,B,one,tail,tail).
+% accuracy: 0.5395
+% learning time: 836.1355940299982

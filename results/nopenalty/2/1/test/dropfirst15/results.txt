@@ -1,0 +1,8 @@
+dropfirst15(A,B):- head(A,C),ho_41(C,A,B,one,tail,tail).
+dropfirst15(A,B):- ho_13(A,B,tail,even),ho_13(A,C,tail,even),tail(C,B).
+dropfirst15(A,B):- ho_13(A,D,tail,even),head(D,C),ho_41(C,D,B,zero,tail,tail).
+dropfirst15(A,B):- ho_13(A,D,tail,even),head(D,C),ho_41(C,D,B,one,tail,tail).
+dropfirst15(A,B):- ho_13(A,B,tail,odd),ho_13(A,C,tail,odd),ho_13(B,C,tail,one).
+dropfirst15(A,B):- ho_13(A,B,tail,even),ho_13(A,C,tail,odd),ho_13(B,C,tail,one).
+% accuracy: 0.5145
+% learning time: 900

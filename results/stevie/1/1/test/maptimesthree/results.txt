@@ -1,0 +1,3 @@
+maptimesthree(A,B):- ho_60(A,B,triple).
+% accuracy: 1.0
+% learning time: 3.0544504409999718

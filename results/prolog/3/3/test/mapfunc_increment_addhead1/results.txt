@@ -1,0 +1,3 @@
+mapfunc_increment_addhead1(A,B):- addhead1(A,C),maplist(C,B,increment).
+% accuracy: 1.0
+% learning time: 9.2344975

@@ -1,0 +1,4 @@
+inv_ho_0(A,B,C):- increment(B,C).
+mylength(A,B):- ho_101(A,B,zero,inv_ho_0).
+% accuracy: 1.0
+% learning time: 13.635988834999807

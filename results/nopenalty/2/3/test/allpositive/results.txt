@@ -1,0 +1,3 @@
+allpositive(A):- ho_55(A,head,tail,positive).
+% accuracy: 1.0
+% learning time: 15.910490394999215

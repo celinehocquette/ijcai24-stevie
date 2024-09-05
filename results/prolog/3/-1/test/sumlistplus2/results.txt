@@ -1,0 +1,3 @@
+sum_listplus2(A,B):- one(C),increment(C,D),foldl(A,D,B,sum).
+% accuracy: 1.0
+% learning time: 2.119860083

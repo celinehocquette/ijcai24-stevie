@@ -1,0 +1,3 @@
+mapchangesign(A,B):- convlist(B,A,changesign).
+% accuracy: 1.0
+% learning time: 3.2651210840000005

@@ -1,0 +1,3 @@
+twomembers_0_1(A):- ho_8(A,head,one,tail),ho_8(A,head,zero,tail).
+% accuracy: 1.0
+% learning time: 20.384212511999067

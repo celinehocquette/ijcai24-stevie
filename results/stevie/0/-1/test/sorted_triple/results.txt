@@ -1,0 +1,4 @@
+sorted_triple(A):- tail(A,B),empty(B).
+sorted_triple(A):- head(A,B),tail(A,C),sorted_triple(C),head(C,D),my_triple(B,D).
+% accuracy: 1.0
+% learning time: 8.653466817000208

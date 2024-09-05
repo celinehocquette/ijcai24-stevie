@@ -1,0 +1,4 @@
+iterateaddlast4k(A,B,C):- ho_183(A,B,C,zero_in,addlast1).
+iterateaddlast4k(A,B,C):- ho_183(A,B,D,zero_in,addlast1),iterateaddlast4k(A,D,C).
+% accuracy: 0.997
+% learning time: 206.16094575

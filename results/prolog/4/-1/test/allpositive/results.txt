@@ -1,0 +1,3 @@
+allpositive(A):- partition(A,C,B,positive),partition(C,A,B,positive).
+% accuracy: 1.0
+% learning time: 17.188640167

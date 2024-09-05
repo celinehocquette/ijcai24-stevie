@@ -1,0 +1,4 @@
+chartoint(A,B):- empty(A),empty(B).
+chartoint(A,B):- head(A,C),tail(A,D),head(B,E),tail(B,F),ord(C,E),chartoint(D,F).
+% accuracy: 1.0
+% learning time: 608.087249208

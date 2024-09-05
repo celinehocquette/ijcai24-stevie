@@ -1,0 +1,3 @@
+count_negative(A,B):- ho_155(A,B,positive,negative).
+% accuracy: 1.0
+% learning time: 4.126888696999231

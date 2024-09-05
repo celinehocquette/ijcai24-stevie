@@ -1,0 +1,3 @@
+membereven(A):- ho_290(A,even).
+% accuracy: 1.0
+% learning time: 1.5624185000015132

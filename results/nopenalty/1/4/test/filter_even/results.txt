@@ -1,0 +1,3 @@
+filter_even(A,B):- ho_496(A,B,empty,even,odd).
+% accuracy: 1.0
+% learning time: 12.71750234800129

@@ -1,0 +1,3 @@
+andlist(A,B):- ho_24(A,B,one,tail,and_element).
+% accuracy: 1.0
+% learning time: 26.93262389499978

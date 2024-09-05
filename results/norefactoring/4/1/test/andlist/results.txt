@@ -1,0 +1,4 @@
+andlist(A,B):- empty(A),one(B).
+andlist(A,B):- head(A,C),tail(A,D),andlist(D,E),and_element(C,E,B).
+% accuracy: 1.0
+% learning time: 271.280597416

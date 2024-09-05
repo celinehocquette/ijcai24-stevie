@@ -1,0 +1,3 @@
+allgeqtwo(A):- head(A,B),partition(A,D,C,one),head(C,B),empty(D).
+% accuracy: 0.851
+% learning time: 190.503132167

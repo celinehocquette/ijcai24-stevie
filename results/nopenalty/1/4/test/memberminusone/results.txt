@@ -1,0 +1,3 @@
+memberminusone(A):- ho_138(A,minusone).
+% accuracy: 1.0
+% learning time: 40.76931498200429

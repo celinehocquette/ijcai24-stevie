@@ -1,0 +1,8 @@
+allgeqfour(A):- tail(A,B),ho_21(A,D,tail,even),head(B,C),tail(B,D),even(C).
+allgeqfour(A):- tail(A,C),tail(C,E),ho_21(E,B,tail,odd),head(B,D),head(E,D).
+allgeqfour(A):- tail(A,C),ho_21(A,C,tail,odd),tail(C,B),head(B,D),odd(D).
+allgeqfour(A):- tail(A,B),head(B,D),tail(B,E),head(E,C),my_succ(D,C).
+allgeqfour(A):- tail(A,E),tail(E,B),tail(B,C),tail(C,D),ho_25(D,even).
+allgeqfour(A):- tail(A,C),head(C,B),tail(C,F),tail(F,D),tail(D,E),head(E,B).
+% accuracy: 0.507
+% learning time: 135.96359927200047

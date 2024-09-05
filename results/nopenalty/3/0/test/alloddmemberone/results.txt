@@ -1,0 +1,4 @@
+alloddmemberone(A):- head(A,B),one_in(B).
+alloddmemberone(A):- head(A,B),tail(A,C),odd(B),alloddmemberone(C).
+% accuracy: 0.9535
+% learning time: 661.7387407760107

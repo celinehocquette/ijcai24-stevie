@@ -1,0 +1,3 @@
+inttobin(A,B):- ho_61(A,B,bin).
+% accuracy: 1.0
+% learning time: 6.324998837999374

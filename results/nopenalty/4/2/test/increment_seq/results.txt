@@ -1,0 +1,3 @@
+increment_seq(A):- ho_432(A,tail,incrementin).
+% accuracy: 1.0
+% learning time: 45.622061334

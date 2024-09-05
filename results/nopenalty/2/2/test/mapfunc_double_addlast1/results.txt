@@ -1,0 +1,3 @@
+mapfunc_double_addlast1(A,B):- addlast1(A,D),addlast1(B,C),ho_316(D,C,double).
+% accuracy: 1.0
+% learning time: 837.870588619

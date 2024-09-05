@@ -1,0 +1,3 @@
+iteratedrop3k(A,B,C):- ho_153(A,B,E,zero_in,decrement,tail),ho_153(A,E,D,zero_in,decrement,tail),ho_153(A,D,C,zero_in,decrement,tail).
+% accuracy: 1.0
+% learning time: 22.538390105997678

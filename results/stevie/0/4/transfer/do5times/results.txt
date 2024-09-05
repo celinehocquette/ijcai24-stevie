@@ -1,0 +1,4 @@
+do5times(A,B):- ho_1(A,B,inv_ho_0).
+inv_ho_0(A,B):- move_right(A,C),move_down(C,B).
+% accuracy: 1.0
+% learning time: 356.18

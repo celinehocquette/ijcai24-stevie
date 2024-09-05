@@ -1,0 +1,4 @@
+iteratedecrementheadk(A,B,C):- zero_in(A),eq_list(B,C).
+iteratedecrementheadk(A,B,C):- decrement(A,E),decrementhead1(B,D),iteratedecrementheadk(E,D,C).
+% accuracy: 1.0
+% learning time: 5.030108385000858

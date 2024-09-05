@@ -1,0 +1,3 @@
+iteratedropk(A,B,C):- ho_16(A,B,C,tail).
+% accuracy: 1.0
+% learning time: 2.3885595179999655

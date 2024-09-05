@@ -1,0 +1,4 @@
+mapminusone(A,B):- empty(A),empty(B).
+mapminusone(A,B):- head(A,D),tail(A,F),head(B,C),tail(B,E),decrement(D,C),mapminusone(F,E).
+% accuracy: 1.0
+% learning time: 371.03057007400093

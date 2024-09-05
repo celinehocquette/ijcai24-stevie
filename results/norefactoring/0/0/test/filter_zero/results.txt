@@ -1,0 +1,5 @@
+filter_zero(A,B):- empty(A),empty(B).
+filter_zero(A,B):- cons3(A,C,D),zero_in(C),filter_zero(D,B).
+filter_zero(A,B):- cons3(A,C,D),filter_zero(D,E),cons(C,E,B),cons3(B,C,E).
+% accuracy: 0.9765
+% learning time: 552.911006125

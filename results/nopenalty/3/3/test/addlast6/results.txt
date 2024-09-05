@@ -1,0 +1,3 @@
+addlast6(A,B):- ho_1(A,C,addlast1),addlast1(C,B).
+% accuracy: 1.0
+% learning time: 52.357960870998795

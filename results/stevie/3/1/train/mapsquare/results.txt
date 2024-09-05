@@ -1,0 +1,4 @@
+mapsquare(A,B):- empty(A),empty(B).
+mapsquare(A,B):- head(A,E),tail(A,F),head(B,C),tail(B,D),square(E,C),mapsquare(F,D).
+% accuracy: 1.0
+% learning time: 431.90950166100083

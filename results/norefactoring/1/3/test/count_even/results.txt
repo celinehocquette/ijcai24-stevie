@@ -1,0 +1,5 @@
+count_even(A,B):- empty(A),zero_int(B).
+count_even(A,B):- head(A,C),tail(A,D),odd(C),count_even(D,B).
+count_even(A,B):- head(A,C),tail(A,D),even(C),count_even(D,E),my_increment(E,B).
+% accuracy: 1.0
+% learning time: 344.45503454199996

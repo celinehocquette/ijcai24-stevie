@@ -1,0 +1,3 @@
+alloddmemberone(A):- ho_22(A,B,tail,head,odd),ho_36(A,odd),head(B,C),one_in(C).
+% accuracy: 0.965
+% learning time: 49.16367831900061

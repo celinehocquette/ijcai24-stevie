@@ -1,0 +1,3 @@
+minlist(A,B):- ho_312(A,B,c100,min).
+% accuracy: 1.0
+% learning time: 16.989642258005915

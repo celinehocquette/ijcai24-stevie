@@ -1,0 +1,3 @@
+repeatminuslast5(A,B):- minuslast1(A,F),minuslast1(F,D),minuslast1(D,C),minuslast1(C,E),minuslast1(E,B).
+% accuracy: 1.0
+% learning time: 0.643800542

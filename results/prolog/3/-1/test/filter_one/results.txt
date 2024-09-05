@@ -1,0 +1,3 @@
+filter_one(A,B):- partition(A,B,C,zero_in),partition(A,C,B,one_in).
+% accuracy: 1.0
+% learning time: 4.157778833

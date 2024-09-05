@@ -1,0 +1,3 @@
+mapfunc_increment_duplhead(A,B):- convlist(A,C,increment),tail(B,C).
+% accuracy: 0.994
+% learning time: 7.723637083999999

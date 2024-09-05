@@ -1,0 +1,3 @@
+allone(A):- ho_275(A,B,one_in,odd),empty(B).
+% accuracy: 1.0
+% learning time: 51.56469920700329

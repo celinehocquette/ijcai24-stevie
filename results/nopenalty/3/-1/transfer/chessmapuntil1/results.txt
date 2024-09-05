@@ -1,0 +1,5 @@
+chessmapuntil1(A,B):- cons3(B,C,A),rank8(C).
+chessmapuntil1(A,B):- tail(A,C),chessmapuntil1(C,B).
+chessmapuntil1(A,B):- tail(B,C),chessmapuntil1(A,C).
+% accuracy: 0.9375
+% learning time: 1.6931607309961691

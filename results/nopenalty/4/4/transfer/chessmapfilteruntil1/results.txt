@@ -1,0 +1,3 @@
+chessmapfilteruntil1(A,B):- ho_172(A,head,neg_rook,tail),ho_14(B,empty,tail,pawn).
+% accuracy: 0.96
+% learning time: 19.342008458000002

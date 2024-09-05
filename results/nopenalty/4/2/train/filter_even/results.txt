@@ -1,0 +1,5 @@
+filter_even(A,B):- empty(A),empty(B).
+filter_even(A,B):- cons3(A,C,D),even(C),filter_even(D,B).
+filter_even(A,B):- cons3(A,D,C),odd(D),filter_even(C,E),cons(D,E,B).
+% accuracy: 1.0
+% learning time: 663.0629833329999

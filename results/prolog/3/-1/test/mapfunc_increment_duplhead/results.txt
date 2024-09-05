@@ -1,0 +1,3 @@
+mapfunc_increment_duplhead(A,B):- duplhead(A,C),maplist(C,B,increment).
+% accuracy: 1.0
+% learning time: 12.698418666999999

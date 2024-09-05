@@ -1,0 +1,3 @@
+duplheadk5(A,B):- duplhead(A,C),duplhead(C,D),duplhead(D,F),duplhead(F,E),duplhead(E,B).
+% accuracy: 1.0
+% learning time: 0.3995043960021576

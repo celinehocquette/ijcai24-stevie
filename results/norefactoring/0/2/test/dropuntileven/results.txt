@@ -1,0 +1,4 @@
+dropuntileven(A,B):- tail(A,B),head(B,C),even(C).
+dropuntileven(A,B):- tail(A,C),dropuntileven(C,B).
+% accuracy: 1.0
+% learning time: 0.866756291

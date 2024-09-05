@@ -1,0 +1,3 @@
+alleven(A):- ho_25(A,head,even).
+% accuracy: 1.0
+% learning time: 1.515099886993994

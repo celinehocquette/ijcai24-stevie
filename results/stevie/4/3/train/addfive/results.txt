@@ -1,0 +1,3 @@
+% no solution
+% accuracy: 0.5
+% learning time: 0.7955753760033986

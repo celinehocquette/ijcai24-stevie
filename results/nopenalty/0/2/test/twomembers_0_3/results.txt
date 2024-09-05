@@ -1,0 +1,5 @@
+twomembers_0_3(A):- ho_239(A,B,tail,head,even),tail(A,D),head(D,C),ho_177(C,D,B,tail,tail).
+twomembers_0_3(A):- ho_239(A,B,tail,head,even),head(A,C),tail(A,D),ho_177(C,D,B,tail,tail).
+twomembers_0_3(A):- tail(A,B),tail(B,C),tail(C,D),ho_239(C,D,tail,head,zero).
+% accuracy: 0.5375
+% learning time: 94.19777116799924

@@ -1,0 +1,3 @@
+orlist(A,B):- ho_495(A,B,zero,or_element).
+% accuracy: 1.0
+% learning time: 5.083979519000422

@@ -1,0 +1,4 @@
+andlist(A,B):- ho_346(A,C,one,even),head(C,B).
+andlist(A,B):- ho_346(A,C,one,odd),head(C,B).
+% accuracy: 1.0
+% learning time: 11.120064792999983

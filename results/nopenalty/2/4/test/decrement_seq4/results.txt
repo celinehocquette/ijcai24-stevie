@@ -1,0 +1,4 @@
+decrement_seq4(A):- ho_444(A,head,inv_ho_0).
+inv_ho_0(A,B):- decrement(A,D),decrement(D,E),decrement(E,C),decrement(C,B).
+% accuracy: 1.0
+% learning time: 485.6802903709977

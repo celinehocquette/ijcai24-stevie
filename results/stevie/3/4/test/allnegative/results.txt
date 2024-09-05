@@ -1,0 +1,3 @@
+allnegative(A):- ho_32(A,negative).
+% accuracy: 1.0
+% learning time: 5.092681161000655

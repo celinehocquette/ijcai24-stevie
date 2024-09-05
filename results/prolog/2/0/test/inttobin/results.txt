@@ -1,0 +1,3 @@
+inttobin(A,B):- maplist(A,B,bin).
+% accuracy: 1.0
+% learning time: 4.115014834

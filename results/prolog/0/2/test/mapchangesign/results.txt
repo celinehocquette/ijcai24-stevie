@@ -1,0 +1,3 @@
+mapchangesign(A,B):- maplist(A,B,changesign).
+% accuracy: 1.0
+% learning time: 3.520009375

@@ -1,0 +1,4 @@
+orlist(A,B):- empty(A),zero(B).
+orlist(A,B):- head(A,D),tail(A,E),orlist(E,C),or_element(C,D,B).
+% accuracy: 1.0
+% learning time: 36.670020916

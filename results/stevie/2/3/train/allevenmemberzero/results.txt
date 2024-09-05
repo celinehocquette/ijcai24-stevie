@@ -1,0 +1,4 @@
+allevenmemberzero(A):- head(A,C),tail(A,D),zero_in(C),head(D,B),even(B).
+allevenmemberzero(A):- head(A,B),tail(A,C),even(B),allevenmemberzero(C).
+% accuracy: 0.9335
+% learning time: 16.568209111000215

@@ -1,0 +1,4 @@
+waiter(A,B):- ho_121(A,B,inv_ho_0,head,at_end).
+inv_ho_0(A,B):- turn_cup_over(A,D),pour_tea(D,C),move_right(C,B).
+% accuracy: 1.0
+% learning time: 18.502798291999998

@@ -1,0 +1,3 @@
+allevenmemberzero(A):- ho_29(A,empty,tail,even),ho_9(A,zero_in).
+% accuracy: 1.0
+% learning time: 15.232428055998753

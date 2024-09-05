@@ -1,0 +1,4 @@
+chartointsorteddecr(A):- ho_1(A,B,tail),ho_1(B,C,tail),empty(C).
+chartointsorteddecr(A):- ho_1(A,C,tail),head(C,B),ord(B,D),odd(D).
+% accuracy: 0.489
+% learning time: 8.448440167

@@ -1,0 +1,3 @@
+addlast5(A,B):- addlast1(A,C),addlast1(C,D),addlast1(D,F),addlast1(F,E),addlast1(E,B).
+% accuracy: 1.0
+% learning time: 0.946335481989081

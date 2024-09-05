@@ -1,0 +1,3 @@
+addhead5(A,B):- ho_1(A,B,addhead1).
+% accuracy: 1.0
+% learning time: 10.484811148000517

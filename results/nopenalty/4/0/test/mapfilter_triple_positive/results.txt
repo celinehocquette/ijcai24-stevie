@@ -1,0 +1,4 @@
+mapfilter_triple_positive(A,B):- ho_4(A,even),ho_4(B,negative).
+mapfilter_triple_positive(A,B):- tail(A,C),mapfilter_triple_positive(C,B).
+% accuracy: 1.0
+% learning time: 557.8850451669999

@@ -1,0 +1,3 @@
+duplheadk6(A,B):- duplhead(A,C),ho_1(C,B,duplhead).
+% accuracy: 1.0
+% learning time: 1.066917

@@ -1,0 +1,4 @@
+orlist(A,B):- head(A,B).
+orlist(A,B):- tail(A,C),orlist(C,B).
+% accuracy: 0.8
+% learning time: 0.409726171001239

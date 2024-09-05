@@ -1,0 +1,8 @@
+sorted_triple(A):- ho_2(A,zero).
+sorted_triple(A):- tail(A,B),tail(B,D),empty(C),tail(D,C).
+sorted_triple(A):- head(A,C),tail(A,D),empty(B),even(C),ho_1(D,B,tail).
+sorted_triple(A):- ho_1(A,D,tail),empty(B),head(D,C),even(C),tail(D,E),tail(E,B).
+sorted_triple(A):- tail(A,C),tail(C,D),ho_1(D,E,tail),tail(E,B),tail(B,F),empty(F).
+sorted_triple(A):- head(A,B),tail(A,D),head(D,C),my_triple(B,C),tail(D,E),empty(E).
+% accuracy: 0.495
+% learning time: 293.93962790900014

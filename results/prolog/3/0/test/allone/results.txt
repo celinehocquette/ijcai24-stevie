@@ -1,0 +1,3 @@
+allone(A):- partition(A,B,C,even),partition(C,A,B,one_in).
+% accuracy: 1.0
+% learning time: 9.150033791

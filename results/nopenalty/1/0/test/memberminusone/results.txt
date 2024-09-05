@@ -1,0 +1,4 @@
+memberminusone(A):- head(A,B),minusone(B).
+memberminusone(A):- ho_22(A,B,tail,head,minusone),ho_22(A,B,tail,head,odd).
+% accuracy: 1.0
+% learning time: 2.226989067999966

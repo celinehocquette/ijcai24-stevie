@@ -1,0 +1,3 @@
+multlistplus2(A,B):- one(C),foldl(A,C,D,mult),increment(D,E),increment(E,B).
+% accuracy: 1.0
+% learning time: 7.887950374999999

@@ -1,0 +1,3 @@
+allodd(A):- ho_275(A,B,one_in,odd),ho_275(A,B,zero_in,odd).
+% accuracy: 1.0
+% learning time: 16.081038517993875

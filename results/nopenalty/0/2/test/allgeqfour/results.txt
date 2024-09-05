@@ -1,0 +1,7 @@
+allgeqfour(A):- ho_232(A,head,tail,odd).
+allgeqfour(A):- head(A,C),one(D),ho_177(D,A,B,tail,tail),head(B,C).
+allgeqfour(A):- ho_239(A,B,tail,head,odd),head(A,E),tail(B,C),head(C,D),my_succ(E,D).
+allgeqfour(A):- ho_1(A,D,tail),tail(A,E),head(D,B),odd(B),head(E,C),geq(C,B).
+allgeqfour(A):- ho_239(A,E,tail,head,even),head(E,C),tail(E,D),tail(D,F),head(F,B),my_succ(C,B).
+% accuracy: 0.4895
+% learning time: 736.7970491099986

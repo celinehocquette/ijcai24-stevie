@@ -1,0 +1,7 @@
+mapfilter_increment_odd(A,B):- ho_178(A,C,head,positive,negative),ho_178(B,C,head,negative,even).
+mapfilter_increment_odd(A,B):- ho_178(A,C,head,negative,positive),ho_178(B,C,head,positive,even).
+mapfilter_increment_odd(A,B):- tail(A,D),ho_178(B,C,head,negative,even),ho_178(D,C,head,even,odd).
+mapfilter_increment_odd(A,B):- tail(A,D),ho_15(A,D,tail,head,negative),tail(B,C),ho_15(B,C,tail,head,even).
+mapfilter_increment_odd(A,B):- tail(A,D),ho_15(A,D,tail,head,even),tail(B,C),ho_15(B,C,tail,head,negative).
+% accuracy: 0.9415
+% learning time: 675.6484045390025

@@ -1,0 +1,3 @@
+sum_list(A,B):- ho_44(A,B,zero,sum).
+% accuracy: 1.0
+% learning time: 7.201467143000627

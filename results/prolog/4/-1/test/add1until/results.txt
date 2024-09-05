@@ -1,0 +1,4 @@
+add1until(A,B):- addhead1(A,B),head(B,C),zero_in(C).
+add1until(A,B):- addhead1(A,C),add1until(C,B).
+% accuracy: 1.0
+% learning time: 151.87441458400002

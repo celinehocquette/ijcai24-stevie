@@ -1,0 +1,4 @@
+chartointsum(A,B):- ho_378(A,B,zero,inv_ho_0).
+inv_ho_0(A,B,C):- ord(B,D),sum(A,D,C).
+% accuracy: 1.0
+% learning time: 53.199619915001676

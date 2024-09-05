@@ -1,0 +1,3 @@
+maxlistplus2(A,B):- head(A,C),foldl(A,C,E,max),increment(E,D),increment(D,B).
+% accuracy: 1.0
+% learning time: 9.296303167

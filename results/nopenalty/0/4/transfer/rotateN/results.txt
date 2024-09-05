@@ -1,0 +1,4 @@
+f(A,B,C):- ho_241(A,B,C,inv_ho_0).
+inv_ho_0(A,B):- head(A,D),cons1(A,D,C),tail(C,B).
+% accuracy: 1.0
+% learning time: 18.304858121002326

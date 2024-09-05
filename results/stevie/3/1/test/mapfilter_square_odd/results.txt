@@ -1,0 +1,3 @@
+mapfilter_square_odd(A,B):- ho_183(A,C,odd,even),ho_164(C,B,square).
+% accuracy: 1.0
+% learning time: 226.4650209140018

@@ -1,0 +1,4 @@
+twomembers_1_3(A):- head(A,B),ho_44(B,A,C,tail),ho_5(C,one).
+twomembers_1_3(A):- ho_75(A,B,tail,one),ho_1(B,C,tail),head(C,D),even(D).
+% accuracy: 0.611
+% learning time: 721.8667972219991

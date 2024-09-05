@@ -1,0 +1,5 @@
+count_one(A,B):- empty(A),zero_int(B).
+count_one(A,B):- head(A,C),tail(A,D),zero_in(C),count_one(D,B).
+count_one(A,B):- head(A,D),tail(A,E),one(D),count_one(E,C),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 201.2740349190026

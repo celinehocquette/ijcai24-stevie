@@ -1,0 +1,3 @@
+allzero(A):- partition(A,B,C,zero_in),partition(A,C,B,one_in).
+% accuracy: 0.996
+% learning time: 11.507499166999999

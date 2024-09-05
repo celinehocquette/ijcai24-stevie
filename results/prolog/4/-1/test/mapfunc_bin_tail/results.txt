@@ -1,0 +1,3 @@
+mapfunc_bin_tail(A,B):- tail(A,C),maplist(C,B,bin).
+% accuracy: 1.0
+% learning time: 7.42508475

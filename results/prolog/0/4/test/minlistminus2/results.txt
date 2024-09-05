@@ -1,0 +1,3 @@
+minlistminus2(A,B):- head(A,D),foldl(A,D,E,min),decrement(E,C),decrement(C,B).
+% accuracy: 1.0
+% learning time: 9.489963417

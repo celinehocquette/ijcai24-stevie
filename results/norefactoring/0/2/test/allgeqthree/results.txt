@@ -1,0 +1,9 @@
+allgeqthree(A):- head(A,B),one(C),my_succ(E,B),my_succ(D,E),my_succ(C,D).
+allgeqthree(A):- tail(A,D),tail(D,E),tail(E,C),tail(C,B),empty(B).
+allgeqthree(A):- tail(A,B),tail(B,E),head(E,C),tail(E,D),head(D,C).
+allgeqthree(A):- head(A,B),tail(A,C),odd(B),head(C,D),geq(D,B).
+allgeqthree(A):- tail(A,C),head(C,D),tail(C,E),head(E,B),my_succ(D,B).
+allgeqthree(A):- tail(A,F),head(F,C),tail(F,D),tail(D,E),tail(E,B),head(B,C).
+allgeqthree(A):- tail(A,F),tail(F,B),head(B,D),tail(B,E),my_succ(C,D),head(E,C).
+% accuracy: 0.521
+% learning time: 35.810296708

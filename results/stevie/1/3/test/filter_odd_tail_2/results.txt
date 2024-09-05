@@ -1,0 +1,7 @@
+filter_odd_tail_2(A,B):- ho_7(A,C,tail,one),ho_100(C,B,odd,even).
+filter_odd_tail_2(A,B):- ho_1(A,C,tail),ho_100(C,B,odd,even).
+filter_odd_tail_2(A,B):- ho_7(A,C,tail,even),ho_100(C,B,one,even).
+filter_odd_tail_2(A,B):- tail(A,C),ho_100(C,D,odd,even),tail(D,B).
+filter_odd_tail_2(A,B):- ho_1(A,C,tail),ho_100(C,D,odd,even),tail(D,B).
+% accuracy: 0.7515
+% learning time: 602.5615221110002

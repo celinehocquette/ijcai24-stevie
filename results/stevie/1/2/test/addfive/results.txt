@@ -1,0 +1,8 @@
+addfive(A,B):- ho_1(A,C,tail),head(B,D),empty(C),even(D).
+addfive(A,B):- head(A,D),tail(B,C),ho_232(D,C,E,tail),empty(E).
+addfive(A,B):- ho_1(A,E,tail),head(B,D),even(D),head(E,C),odd(C).
+addfive(A,B):- tail(A,C),head(B,E),ho_1(C,F,tail),head(F,D),increment(D,E).
+addfive(A,B):- tail(B,E),head(E,C),ho_232(C,A,F,tail),head(F,D),odd(D).
+addfive(A,B):- ho_5(A,E,tail,even),head(B,D),odd(D),head(E,C),zero_in(C).
+% accuracy: 0.539
+% learning time: 215.6912343869999

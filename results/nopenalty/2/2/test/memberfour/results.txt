@@ -1,0 +1,6 @@
+memberfour(A):- ho_15(A,C,tail,head,odd),head(C,B),ho_33(B,A,C,tail).
+memberfour(A):- tail(A,C),ho_15(C,B,tail,head,odd),head(C,D),ho_33(D,C,B,tail).
+memberfour(A):- ho_15(A,D,tail,head,odd),ho_1(D,B,tail),head(B,C),head(D,C).
+memberfour(A):- head(A,B),ho_15(A,E,tail,head,even),ho_33(B,E,D,tail),empty(C),tail(D,C).
+% accuracy: 0.508
+% learning time: 734.0433016649986

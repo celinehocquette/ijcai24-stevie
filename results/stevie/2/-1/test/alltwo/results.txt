@@ -1,0 +1,4 @@
+alltwo(A):- empty(A).
+alltwo(A):- head(A,C),tail(A,D),decrement(C,B),one_in(B),alltwo(D).
+% accuracy: 1.0
+% learning time: 9.623093492999942

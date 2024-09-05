@@ -1,0 +1,3 @@
+iteratedrop3k(A,B,C):- ho_73(A,B,E,eq_list,tail),ho_152(A,E,D,zero_in,tail),ho_152(A,D,C,zero_in,tail).
+% accuracy: 1.0
+% learning time: 91.681628241

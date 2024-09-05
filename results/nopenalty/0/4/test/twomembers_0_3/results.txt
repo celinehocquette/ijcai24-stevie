@@ -1,0 +1,7 @@
+twomembers_0_3(A):- ho_160(A,zero,inv_ho_0).
+twomembers_0_3(A):- ho_238(A,B,tail,zero),ho_222(B,zero).
+inv_ho_0(A,B):- tail(A,C),tail(C,B).
+twomembers_0_3(A):- ho_238(A,B,tail,one),ho_160(B,zero,inv_ho_0).
+twomembers_0_3(A):- ho_238(A,C,tail,even),ho_160(A,zero,tail),tail(C,B),tail(B,D),empty(D).
+% accuracy: 0.7095
+% learning time: 701.6057514659988

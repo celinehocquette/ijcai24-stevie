@@ -1,0 +1,4 @@
+allgeqtwo(A):- empty(A).
+allgeqtwo(A):- head(A,B),tail(A,D),my_succ(C,B),allgeqtwo(D),one(E),geq(C,E).
+% accuracy: 1.0
+% learning time: 72.1060263449981

@@ -1,0 +1,3 @@
+dropfirst5(A,B):- tail(A,F),tail(F,D),tail(D,E),tail(E,C),tail(C,B).
+% accuracy: 1.0
+% learning time: 0.24169275700114667

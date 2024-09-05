@@ -1,0 +1,3 @@
+duplheadk15(A,B):- ho_1(A,D,duplhead),ho_1(D,C,duplhead),ho_1(C,B,duplhead).
+% accuracy: 1.0
+% learning time: 605.9939237220005

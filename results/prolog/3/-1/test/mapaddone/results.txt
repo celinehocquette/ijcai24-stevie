@@ -1,0 +1,3 @@
+mapaddone(A,B):- maplist(A,B,increment).
+% accuracy: 1.0
+% learning time: 4.582712625

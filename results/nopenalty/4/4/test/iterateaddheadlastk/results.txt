@@ -1,0 +1,3 @@
+iterateaddheadlastk(A,B,C):- ho_180(A,B,D,decrement,addlast1),ho_180(A,D,C,decrement,addhead1).
+% accuracy: 1.0
+% learning time: 24.937942

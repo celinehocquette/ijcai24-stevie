@@ -1,0 +1,8 @@
+membersix(A):- head(A,B),ho_177(B,A,C,tail,tail),ho_161(C,head,odd).
+membersix(A):- ho_239(A,C,tail,head,one_in),ho_1(C,D,tail),head(D,B),odd(B).
+membersix(A):- tail(A,B),ho_239(A,B,tail,head,even),ho_239(A,C,tail,head,even),tail(B,C).
+membersix(A):- ho_239(A,D,tail,head,even),head(D,B),ho_177(B,A,C,tail,tail),tail(D,C).
+membersix(A):- ho_1(A,D,tail),empty(B),tail(D,C),ho_1(C,B,tail).
+membersix(A):- ho_239(A,B,tail,head,even),head(A,C),head(B,C),ho_161(B,head,zero_in).
+% accuracy: 0.5305
+% learning time: 733.1209042539995

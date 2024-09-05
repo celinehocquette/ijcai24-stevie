@@ -1,0 +1,4 @@
+addfour(A,B):- tail(A,C),tail(B,C).
+addfour(A,B):- maplist(A,C,increment),addfour(C,B).
+% accuracy: 0.975
+% learning time: 31.265769249999998

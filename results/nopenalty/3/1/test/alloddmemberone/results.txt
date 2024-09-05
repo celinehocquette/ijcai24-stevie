@@ -1,0 +1,3 @@
+alloddmemberone(A):- ho_29(A,empty,tail,odd),ho_9(A,one_in).
+% accuracy: 1.0
+% learning time: 19.727823694003746

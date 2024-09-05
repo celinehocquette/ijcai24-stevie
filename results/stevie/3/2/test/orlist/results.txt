@@ -1,0 +1,4 @@
+orlist(A,B):- ho_27(A,zero),zero(B).
+orlist(A,B):- ho_188(A,C,even,odd),head(C,B).
+% accuracy: 1.0
+% learning time: 10.599635958002182

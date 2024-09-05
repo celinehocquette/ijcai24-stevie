@@ -1,0 +1,5 @@
+andlist(A,B):- tail(A,C),head(C,B),even(B).
+andlist(A,B):- tail(A,C),zero(B),tail(C,D),head(D,B).
+andlist(A,B):- head(A,B),tail(A,C),ho_149(A,D,one,zero),ho_149(C,D,odd,one).
+% accuracy: 0.9
+% learning time: 48.35014621800292

@@ -1,0 +1,5 @@
+twomembers_1_2(A):- tail(A,B),tail(B,C),head(C,D),one(D).
+twomembers_1_2(A):- head(A,B),tail(A,C),odd(B),twomembers_1_2(C).
+twomembers_1_2(A):- head(A,B),tail(A,D),decrement(B,C),odd(C),twomembers_1_2(D).
+% accuracy: 0.689
+% learning time: 680.319530652996

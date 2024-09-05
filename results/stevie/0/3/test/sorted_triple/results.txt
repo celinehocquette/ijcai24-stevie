@@ -1,0 +1,3 @@
+sorted_triple(A):- ho_308(A,my_triple).
+% accuracy: 1.0
+% learning time: 3.930435414000385

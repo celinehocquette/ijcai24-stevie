@@ -1,0 +1,4 @@
+allfive(A):- ho_4(A,inv_ho_0).
+inv_ho_0(A):- decrement(A,C),decrement(C,B),decrement(B,E),decrement(E,D),one_in(D).
+% accuracy: 1.0
+% learning time: 598.522863708

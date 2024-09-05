@@ -1,0 +1,4 @@
+mapaddone(A,B):- empty(A),empty(B).
+mapaddone(A,B):- head(A,C),tail(A,D),head(B,E),tail(B,F),increment(C,E),mapaddone(D,F).
+% accuracy: 1.0
+% learning time: 532.301774667

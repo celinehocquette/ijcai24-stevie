@@ -1,0 +1,4 @@
+chartointsorteddecr(A):- ho_438(A,tail,inv_ho_0,geq).
+inv_ho_0(A,B):- head(A,C),ord(C,B).
+% accuracy: 1.0
+% learning time: 121.598546958

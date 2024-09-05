@@ -1,0 +1,3 @@
+sum_listplus3(A,B):- ho_103(A,D,one,sum),increment(D,C),increment(C,B).
+% accuracy: 1.0
+% learning time: 2.2097100539995154

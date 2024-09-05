@@ -1,0 +1,4 @@
+count_one(A,B):- ho_220(A,zero_in),zero_int(B).
+count_one(A,B):- ho_355(A,E,empty,zero_in,one),tail(E,D),count_one(D,C),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 777.3987400539991

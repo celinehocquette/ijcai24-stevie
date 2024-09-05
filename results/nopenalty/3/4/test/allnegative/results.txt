@@ -1,0 +1,3 @@
+allnegative(A):- ho_25(A,head,negative).
+% accuracy: 1.0
+% learning time: 21.205297419001

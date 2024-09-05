@@ -1,0 +1,4 @@
+inttobin(A,B):- empty(A),empty(B).
+inttobin(A,B):- head(A,D),tail(A,F),head(B,C),tail(B,E),bin(D,C),inttobin(F,E).
+% accuracy: 1.0
+% learning time: 482.85650675

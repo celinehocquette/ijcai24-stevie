@@ -1,0 +1,4 @@
+chessmapfilter1(A,B):- ho_222(A,neg_rank8),ho_160(B,pawn,tail).
+chessmapfilter1(A,B):- ho_222(A,neg_pawn),empty(B).
+% accuracy: 1.0
+% learning time: 14.396793122999952

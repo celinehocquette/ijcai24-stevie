@@ -1,0 +1,3 @@
+rotateuntilone(A,B):- ho_239(A,B,rotate1,head,one).
+% accuracy: 1.0
+% learning time: 2.0991963500000566

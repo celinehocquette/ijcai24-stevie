@@ -1,0 +1,3 @@
+membereven(A):- ho_7(A,C,tail,even),head(C,B),even(B).
+% accuracy: 0.981
+% learning time: 97.44263949299966

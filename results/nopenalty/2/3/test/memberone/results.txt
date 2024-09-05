@@ -1,0 +1,4 @@
+memberone(A):- ho_55(A,head,tail,odd).
+memberone(A):- ho_14(A,B,tail,odd),ho_14(A,B,tail,one_in).
+% accuracy: 0.958
+% learning time: 123.44827277500008

@@ -1,0 +1,3 @@
+minlistminus1(A,B):- ho_68(A,D,c100,min),decrement(D,C),min(C,D,B).
+% accuracy: 1.0
+% learning time: 22.481663

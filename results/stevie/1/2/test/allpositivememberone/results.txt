@@ -1,0 +1,3 @@
+allpositivememberone(A):- ho_96(A,C,positive,one_in),tail(C,B),ho_153(B,one_in).
+% accuracy: 1.0
+% learning time: 379.13500172600016

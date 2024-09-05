@@ -1,0 +1,3 @@
+multlistplus1(A,B):- ho_366(A,C,one,head,mult),increment(C,B).
+% accuracy: 1.0
+% learning time: 4.695447373000206

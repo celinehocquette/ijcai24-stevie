@@ -1,0 +1,3 @@
+filter_negative(A,B):- ho_276(A,B,negative,positive).
+% accuracy: 1.0
+% learning time: 1.703532733998145

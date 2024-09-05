@@ -1,0 +1,9 @@
+memberfive(A):- tail(A,B),ho_5(B,odd).
+memberfive(A):- ho_121(A,B,tail,head,one_in),ho_431(B,decrement).
+memberfive(A):- tail(A,B),ho_1(B,C,tail),ho_1(C,D,tail),empty(D).
+memberfive(A):- ho_121(A,B,tail,head,odd),tail(A,C),ho_171(B,head,zero_in),tail(C,B).
+memberfive(A):- head(A,B),ho_1(A,C,tail),ho_121(A,C,tail,head,even),even(B).
+memberfive(A):- ho_121(A,C,tail,head,even),empty(B),head(C,D),ho_181(D,C,B,tail,tail).
+memberfive(A):- ho_1(A,C,tail),tail(C,B),tail(B,D),ho_431(D,decrement).
+% accuracy: 0.5235
+% learning time: 332.207686875

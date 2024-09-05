@@ -1,0 +1,4 @@
+sorted_decr(A):- tail(A,B),empty(B).
+sorted_decr(A):- head(A,B),tail(A,D),sorted_decr(D),head(D,C),geq(B,C).
+% accuracy: 1.0
+% learning time: 25.147158041999774

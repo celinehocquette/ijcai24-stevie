@@ -1,0 +1,4 @@
+f(A,B):- children(A,B).
+f(A,B):- tail(B,C),f(A,C).
+% accuracy: 1.0
+% learning time: 0.35255112200138683

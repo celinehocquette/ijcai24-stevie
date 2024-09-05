@@ -1,0 +1,4 @@
+sorted(A):- tail(A,B),empty(B).
+sorted(A):- head(A,B),tail(A,D),sorted(D),head(D,C),geq(C,B).
+% accuracy: 1.0
+% learning time: 14.955061395000484

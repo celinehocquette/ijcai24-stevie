@@ -1,0 +1,20 @@
+pos(chartointsortedincr(['a', 'a', 'a', 'a', 'b', 'c', 'd', 'e', 'e', 'f', 'f', 'f', 'i', 'i', 'j', 'j', 'k', 'l', 'l', 'm', 'm', 'n', 'p', 'p', 'p', 'q', 'r', 'r', 'r', 'r', 's', 'u', 'u', 'v', 'v', 'w', 'x', 'x', 'y', 'y', 'y', 'z', 'z', 'z', 'z'])).
+pos(chartointsortedincr(['a', 'a', 'b', 'b', 'b', 'c', 'd', 'd', 'd', 'd', 'f', 'f', 'g', 'g', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'i', 'i', 'i', 'j', 'k', 'k', 'l', 'm', 'n', 'n', 'o', 'o', 'o', 'p', 'q', 'r', 'r', 's', 's', 't', 't', 'u', 'v', 'v', 'v', 'w', 'x', 'y', 'z'])).
+pos(chartointsortedincr(['b', 'f', 'g', 'g', 'i', 'i', 'k', 'k', 'l', 'l', 'o', 'o', 'p', 'q', 't', 'v', 'w', 'w', 'w', 'x', 'z', 'z'])).
+pos(chartointsortedincr(['c', 'd', 'f', 'h', 'i', 'j', 'k', 'l', 'l', 'l', 'm', 'm', 'n', 'o', 'q', 't', 'u', 'y', 'z'])).
+pos(chartointsortedincr(['b', 'b', 'b', 'c', 'c', 'd', 'd', 'd', 'd', 'f', 'g', 'g', 'h', 'h', 'h', 'h', 'i', 'i', 'k', 'k', 'k', 'k', 'l', 'l', 'n', 'o', 'o', 'o', 'q', 'r', 'r', 'r', 'r', 'r', 's', 't', 't', 'v', 'w', 'w', 'w', 'w', 'w', 'x', 'x', 'x', 'x', 'x', 'x', 'y', 'z'])).
+pos(chartointsortedincr(['a', 'b', 'c', 'd', 'f', 'f', 'f', 'g', 'i', 'i', 'i', 'j', 'j', 'j', 'j', 'o', 'o', 'o', 'o', 'p', 'p', 'q', 'q', 'q', 't', 't', 'v', 'w', 'w', 'x', 'y', 'y', 'z', 'z'])).
+pos(chartointsortedincr(['c', 'd', 'e', 'h', 'm', 'p', 'r', 't', 'w', 'x'])).
+pos(chartointsortedincr(['b', 'g', 'h', 'h', 'i', 'm', 'n', 'o', 'o', 'o', 'p', 'p', 's', 't', 'v', 'y', 'y'])).
+pos(chartointsortedincr(['a', 'b', 'b', 'b', 'c', 'd', 'f', 'f', 'g', 'h', 'h', 'h', 'h', 'j', 'k', 'k', 'k', 'l', 'm', 'o', 'o', 'p', 'q', 'q', 'r', 's', 's', 'u', 'u', 'u', 'v', 'v', 'w', 'w', 'w', 'x', 'x', 'y', 'y', 'z', 'z', 'z'])).
+pos(chartointsortedincr(['a', 'b', 'c', 'c', 'c', 'd', 'e', 'e', 'e', 'f', 'f', 'f', 'i', 'j', 'l', 'l', 'l', 'n', 'n', 'n', 'o', 'p', 'q', 's', 's', 'u', 'u', 'u', 'v', 'w', 'w', 'y', 'y'])).
+neg(chartointsortedincr(['p', 'b', 'g', 'p', 'j', 'u', 'p', 'x', 'd', 'c', 'h', 'x', 'j', 'e', 'w', 'k', 'h', 'u', 'm', 'w', 'j', 'o', 'o', 'o', 'o', 'x', 'w', 'w', 'f', 'l', 'x', 'm', 'q', 'n', 'p', 'u', 'u', 'a', 'v', 'v', 'g', 'q', 'l', 'q', 'y', 'b', 's', 'q', 'l', 'z'])).
+neg(chartointsortedincr(['i', 'd', 'j', 'd', 'e', 'o', 'g', 'f', 'f', 'f', 'g', 'g', 'b', 'h', 'z', 't', 'r', 'n', 'i', 'd', 'u', 'k', 's', 'i', 'm', 'e', 'h', 'o', 'e', 'p', 'n', 'w', 'i', 'u', 'v', 's', 'y', 'm', 'x', 'k', 't', 'k', 'v', 'v', 'p', 'w', 'p', 'r', 'p', 'y', 'w'])).
+neg(chartointsortedincr(['c', 'r', 't', 'a', 'w', 'b', 'a', 'd', 'd', 'g', 'd', 'e', 'm', 'd', 'b', 'j', 'j', 'i', 'j', 'z', 'k', 'f', 'e', 'k', 'p', 'q', 'q', 'a', 's', 'a', 't', 'u', 'u', 'w', 'k', 'w', 'n', 'y', 'y'])).
+neg(chartointsortedincr(['a', 'u', 'q', 'b', 'i', 'p', 'k', 'g', 'k', 'h', 'j', 'w', 't', 'a', 'h', 'v', 'v', 'p', 'q', 'p', 'b', 'q', 's', 'j', 'y', 'p', 't', 't', 'g', 'u', 'y', 'f', 't', 'w', 'v', 'x', 's', 'z', 'e'])).
+neg(chartointsortedincr(['q', 'g', 'c', 'w', 'h', 'd', 'e', 'd', 'e', 'h', 'v', 'c', 'i', 'x', 'e', 'k', 'n', 'h', 'h', 'd', 'x', 'i', 'i', 'm', 'u', 'u', 'q', 'm', 'h', 'g', 'p', 'h', 'j', 'k', 'f', 'r', 's', 'h', 'x', 's', 's', 'k', 'q', 'c', 's', 'b', 'n', 'x'])).
+neg(chartointsortedincr(['a', 't', 'a', 'i', 'b', 'b', 'c', 'j', 'd', 'd', 'f', 'n', 'r', 'd', 'j', 'b', 'w', 'y', 'n', 'o', 'j', 'l', 'a', 'o', 'u', 'm', 'x', 'q', 'y', 'z'])).
+neg(chartointsortedincr(['a', 'a', 'l', 'b', 'b', 'c', 'c', 'c', 'c', 'c', 'f', 'f', 'h', 'g', 'g', 'h', 'h', 'h', 'f', 'i', 'p', 'k', 'l', 'q', 'l', 'y', 'm', 'j', 'm', 'm', 'o', 'x', 'p', 'q', 'm', 'l', 'r', 's', 't', 't', 'w', 'q', 'y', 'b', 'y'])).
+neg(chartointsortedincr(['c', 'e', 'd', 'm', 'p', 'j', 'j', 't', 'f', 'p', 'g', 'r', 'g', 'g', 'o', 'm', 'f', 'o', 'g', 'e', 'm', 'e', 'o', 'l', 't', 'o', 'p', 'w', 'o', 'z', 'm', 'q', 'w', 'p', 'q', 'e', 'k', 'x', 'u', 'd', 'e', 'g', 'p'])).
+neg(chartointsortedincr(['b', 'v', 'd', 'l', 'q', 'w', 'n', 's', 'b', 'w', 'm'])).
+neg(chartointsortedincr(['a', 'd', 'y', 'i', 'w', 'e', 'i', 'x', 'b', 'l', 'n', 'q', 't', 'w', 'x', 'o', 'e', 't', 'j', 'h', 'y', 'x', 'b', 'r', 'x', 'r', 'q'])).

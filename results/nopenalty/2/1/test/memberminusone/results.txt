@@ -1,0 +1,3 @@
+memberminusone(A):- ho_13(A,B,tail,minusone),ho_13(A,B,tail,odd).
+% accuracy: 0.9645
+% learning time: 36.70806956400338

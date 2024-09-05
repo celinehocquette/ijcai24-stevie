@@ -1,0 +1,3 @@
+iterateaddheadlastk(A,B,C):- ho_38(A,B,D,eq_list,addlast1),ho_38(A,D,C,eq_list,addhead1).
+% accuracy: 1.0
+% learning time: 21.449847657000646

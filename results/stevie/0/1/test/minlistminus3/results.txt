@@ -1,0 +1,4 @@
+inv_ho_0(A,B,C):- decrement(A,D),min(B,D,C).
+minlistminus3(A,B):- ho_101(A,D,c100,inv_ho_0),decrement(D,C),inv_ho_0(C,D,B).
+% accuracy: 1.0
+% learning time: 252.24272580399975

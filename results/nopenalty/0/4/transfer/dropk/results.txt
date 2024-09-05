@@ -1,0 +1,3 @@
+dropk(A,B,C):- ho_172(A,B,C,tail).
+% accuracy: 1.0
+% learning time: 1.568369567998161

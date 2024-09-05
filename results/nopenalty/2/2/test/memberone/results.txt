@@ -1,0 +1,3 @@
+memberone(A):- ho_15(A,B,tail,head,odd),ho_15(A,B,tail,head,one_in).
+% accuracy: 0.96
+% learning time: 22.97439285099972

@@ -1,0 +1,4 @@
+f(A,B):- ho_329(B,A,empty,tail,inv_ho_0).
+inv_ho_0(A,B):- char_to_int(A,D),decrement(D,C),decrement(C,E),int_to_char(E,B).
+% accuracy: 1.0
+% learning time: 559.6996062379985

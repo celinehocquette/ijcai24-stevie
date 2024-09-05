@@ -1,0 +1,3 @@
+decrement1until(A,B):- ho_5(A,B,decrementhead1,zero_in).
+% accuracy: 1.0
+% learning time: 1.221875932002149

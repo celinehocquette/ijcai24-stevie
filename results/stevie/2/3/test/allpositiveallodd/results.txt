@@ -1,0 +1,3 @@
+allpositiveallodd(A):- ho_23(A,odd).
+% accuracy: 0.9825
+% learning time: 12.27237130300091

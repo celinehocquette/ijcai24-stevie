@@ -1,0 +1,3 @@
+memberone(A):- ho_7(A,one_in).
+% accuracy: 1.0
+% learning time: 5.534458474998246

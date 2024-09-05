@@ -1,0 +1,20 @@
+pos(chartointsorteddecr(['z', 'y', 'x', 'w', 'w', 'v', 't', 's', 'r', 'q', 'p', 'o', 'n', 'l', 'j', 'i', 'g', 'f', 'd'])).
+pos(chartointsorteddecr(['z', 'y', 'w', 'w', 't', 't', 's', 'r', 'r', 'q', 'p', 'o', 'o', 'o', 'o', 'n', 'n', 'n', 'n', 'm', 'k', 'k', 'k', 'k', 'j', 'j', 'j', 'j', 'j', 'i', 'i', 'i', 'h', 'h', 'h', 'g', 'f', 'e', 'e', 'd', 'c', 'c', 'c', 'c', 'c', 'b', 'a', 'a'])).
+pos(chartointsorteddecr(['z', 'z', 'x', 'x', 'w', 'w', 'w', 'w', 'w', 'v', 'v', 'u', 't', 't', 't', 't', 's', 's', 'r', 'r', 'q', 'q', 'p', 'o', 'o', 'n', 'm', 'l', 'l', 'l', 'l', 'k', 'j', 'j', 'i', 'i', 'i', 'h', 'h', 'h', 'g', 'g', 'd', 'd', 'c', 'c', 'b', 'b', 'a', 'a'])).
+pos(chartointsorteddecr(['z', 'z', 'z', 'z', 'y', 'x', 'x', 'x', 'w', 'w', 'u', 't', 't', 't', 's', 'r', 'q', 'q', 'q', 'p', 'p', 'p', 'o', 'm', 'm', 'm', 'l', 'l', 'l', 'l', 'k', 'j', 'j', 'j', 'i', 'f', 'f', 'e', 'e', 'e', 'd', 'd', 'd', 'b', 'b'])).
+pos(chartointsorteddecr(['z', 'z', 'y', 'y', 'x', 'v', 'v', 'u', 't', 't', 't', 't', 's', 'r', 'r', 'p', 'p', 'p', 'p', 'n', 'n', 'm', 'm', 'm', 'l', 'k', 'k', 'k', 'k', 'j', 'j', 'i', 'i', 'i', 'i', 'h', 'f', 'f', 'e', 'd', 'd', 'd', 'd', 'd', 'c', 'b', 'a', 'a', 'a', 'a', 'a'])).
+pos(chartointsorteddecr(['z', 'z', 'z', 'y', 'y', 'y', 'y', 'x', 'x', 'u', 't', 's', 's', 'r', 'r', 'r', 'q', 'p', 'o', 'o', 'o', 'n', 'n', 'n', 'm', 'm', 'l', 'l', 'k', 'k', 'k', 'k', 'k', 'j', 'j', 'j', 'i', 'i', 'i', 'g', 'f', 'e', 'b', 'b', 'a'])).
+pos(chartointsorteddecr(['y', 'y', 'y', 'y', 'y', 'x', 'x', 'x', 'x', 'v', 'v', 'u', 'u', 'u', 't', 't', 't', 'r', 'r', 'r', 'q', 'p', 'p', 'p', 'p', 'n', 'm', 'm', 'm', 'k', 'k', 'j', 'j', 'i', 'h', 'f', 'd', 'c', 'b', 'b', 'a'])).
+pos(chartointsorteddecr(['w', 'v', 'u', 't', 's', 'r', 'r', 'r', 'r', 'p', 'o', 'n', 'n', 'n', 'm', 'l', 'l', 'k', 'k', 'k', 'j', 'i', 'g', 'd', 'd'])).
+pos(chartointsorteddecr(['y', 'x', 'w', 'w', 'v', 't', 's', 's', 'r', 'r', 'r', 'r', 'r', 'q', 'p', 'p', 'o', 'o', 'n', 'm', 'l', 'l', 'k', 'k', 'h', 'h', 'g', 'g', 'g', 'g', 'g', 'f', 'e', 'c', 'c', 'c', 'c', 'c', 'b', 'a', 'a'])).
+pos(chartointsorteddecr(['z', 'y', 'x', 'v', 'u', 't', 's', 'q', 'q', 'p', 'o', 'n', 'l', 'l', 'k', 'j', 'i', 'i', 'h', 'h', 'g', 'f', 'e', 'd', 'd', 'd', 'c', 'a', 'a'])).
+neg(chartointsorteddecr(['n', 'x', 'k', 'n', 'o', 'q', 'e', 'g', 'b', 'y', 'a', 'z', 'a', 'e'])).
+neg(chartointsorteddecr(['p', 'o', 'y', 'b', 'v', 'x', 'x', 'x', 'x', 'w', 'u', 'x', 'x', 's', 'j', 'f', 'r', 'k', 'p', 'o', 'p', 'm', 'h', 'g', 'z', 'k', 'd', 'j', 's', 'w', 'i', 'h', 'i', 'h', 'g', 'z', 'a', 'e', 'a', 'b', 'q', 'o', 'b', 'b', 'b', 'a', 'u', 'd'])).
+neg(chartointsorteddecr(['o', 'y', 'v', 'v', 'n', 'r', 'q', 'j', 'z', 's', 'k', 'q', 'e', 'c', 'c', 'a'])).
+neg(chartointsorteddecr(['z', 'p', 'u', 'b', 'c', 't', 't', 'a', 'y', 't', 'u', 't', 'w', 'g', 'y', 'j', 'i', 'a', 'q', 'r', 'y', 'a', 'z', 'i'])).
+neg(chartointsorteddecr(['w', 'x', 'u', 'u', 't', 't', 'r', 'm', 'k', 'k', 'e', 'i', 'i', 'h', 'g', 'e', 'j', 'c', 'a'])).
+neg(chartointsorteddecr(['z', 'x', 'w', 'w', 'w', 'w', 'w', 'j', 'v', 'u', 'u', 't', 't', 's', 'q', 'q', 'g', 'p', 'p', 'o', 'v', 'n', 'm', 'o', 'm', 'm', 'm', 'm', 'l', 'l', 'l', 'm', 'j', 'j', 'j', 'h', 'p', 'g', 'e', 'e', 'e', 'd', 'd', 'd', 'd', 'b', 'a', 'a'])).
+neg(chartointsorteddecr(['c', 'i', 'm', 'v', 'm', 'm', 'j', 'q', 'i', 'c', 'q', 'q', 'm', 'x', 'l', 'k', 'r', 'y', 'k', 'p', 's', 's', 'y', 'v', 'g', 'z', 'f', 'e', 'g', 'i'])).
+neg(chartointsorteddecr(['s', 'f', 'y', 'v', 'u', 'j', 't', 't', 't', 'z', 'r', 'f', 'q', 'p', 'p', 'p', 'o', 'c', 'm', 'k', 'l', 'l', 'l', 'l', 't', 'j', 'h', 'h', 'h', 'h', 'q', 'f', 'f', 'z', 'e', 'e', 'd', 'd', 'n', 'a', 'c', 'b', 'b', 'c'])).
+neg(chartointsorteddecr(['x', 'x', 'b', 'f', 'w', 'v', 'k', 's', 'b', 'f', 'k', 's', 'k', 'r', 's', 'n', 'u', 'd', 'o', 'q', 's', 'v', 'x', 't', 'n', 'm', 'w', 'l', 'u', 'i', 'a', 'i', 'd', 'i', 'i', 'h', 'r', 'f', 'h', 'e', 'p', 'i', 'q', 'd', 'e', 't', 'v', 'm', 'o'])).
+neg(chartointsorteddecr(['y', 'y', 's', 'w', 'g', 'k', 'm', 'u', 'u', 'k', 'u', 'c', 'l', 'p', 'n', 'v', 'u', 'c', 'k', 'c', 'k', 'k', 'v', 'n', 'k', 'o', 'r', 'h', 'h', 'l', 'c', 'y', 'd', 'u'])).

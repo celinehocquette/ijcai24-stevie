@@ -1,0 +1,4 @@
+twomembers_1_3(A):- ho_1(A,inv_ho_0),ho_1(A,one).
+inv_ho_0(A):- decrement(A,B),decrement(B,C),one(C).
+% accuracy: 1.0
+% learning time: 4.117234817000281

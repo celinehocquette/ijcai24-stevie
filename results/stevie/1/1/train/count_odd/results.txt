@@ -1,0 +1,5 @@
+count_odd(A,B):- empty(A),zero_int(B).
+count_odd(A,B):- head(A,C),tail(A,D),even(C),count_odd(D,B).
+count_odd(A,B):- head(A,C),tail(A,E),odd(C),count_odd(E,D),my_increment(D,B).
+% accuracy: 1.0
+% learning time: 219.46333194499948

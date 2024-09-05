@@ -1,0 +1,4 @@
+dropuntilodd(A,B):- tail(A,B),head(B,C),odd(C).
+dropuntilodd(A,B):- tail(A,C),dropuntilodd(C,B).
+% accuracy: 1.0
+% learning time: 0.4992635599996902

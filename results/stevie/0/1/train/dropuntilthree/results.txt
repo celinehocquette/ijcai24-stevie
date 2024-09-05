@@ -1,0 +1,4 @@
+dropuntilthree(A,B):- tail(A,B),head(B,D),decrement(D,C),decrement(C,E),one_in(E).
+dropuntilthree(A,B):- tail(A,C),dropuntilthree(C,B).
+% accuracy: 1.0
+% learning time: 1.8019427280005402

@@ -1,0 +1,3 @@
+twomembers_0_1(A):- ho_7(A,one),ho_7(A,zero).
+% accuracy: 1.0
+% learning time: 9.592825605001053

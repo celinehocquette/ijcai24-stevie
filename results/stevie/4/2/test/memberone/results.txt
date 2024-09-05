@@ -1,0 +1,3 @@
+memberone(A):- ho_288(A,one_in).
+% accuracy: 1.0
+% learning time: 4.092651767001371

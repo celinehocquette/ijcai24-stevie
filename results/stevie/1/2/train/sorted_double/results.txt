@@ -1,0 +1,4 @@
+sorted_double(A):- tail(A,B),empty(B).
+sorted_double(A):- head(A,B),tail(A,C),sorted_double(C),head(C,D),my_double(B,D).
+% accuracy: 1.0
+% learning time: 5.561983687000065

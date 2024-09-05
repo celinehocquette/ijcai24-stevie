@@ -1,0 +1,5 @@
+inv_ho_0(A,B):- ho_1(A,B,tail).
+chartointsortedincr(A):- ho_1(A,B,inv_ho_0),tail(B,C),tail(C,D),empty(D).
+chartointsortedincr(A):- ho_1(A,D,tail),head(D,B),tail(D,C),head(C,B).
+% accuracy: 0.6105
+% learning time: 202.55635083299998

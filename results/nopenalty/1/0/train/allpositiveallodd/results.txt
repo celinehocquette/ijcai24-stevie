@@ -1,0 +1,3 @@
+allpositiveallodd(A):- head(A,B),tail(A,D),odd(B),head(D,C),positive(C),odd(C).
+% accuracy: 0.818
+% learning time: 4.506827536999481

@@ -1,0 +1,3 @@
+memberodd(A):- ho_94(A,C,even,odd),head(C,B),odd(B).
+% accuracy: 1.0
+% learning time: 51.458435651999935

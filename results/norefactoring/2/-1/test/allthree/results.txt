@@ -1,0 +1,4 @@
+allthree(A):- empty(A).
+allthree(A):- head(A,B),tail(A,D),decrement(B,C),decrement(C,E),allthree(D),one_in(E).
+% accuracy: 1.0
+% learning time: 17.276198375

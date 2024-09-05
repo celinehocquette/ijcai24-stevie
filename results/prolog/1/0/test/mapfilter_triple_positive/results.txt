@@ -1,0 +1,4 @@
+mapfilter_triple_positive(A,B):- convlist(B,A,increment).
+mapfilter_triple_positive(A,B):- tail(A,C),mapfilter_triple_positive(C,B).
+% accuracy: 0.9995
+% learning time: 394.955507167

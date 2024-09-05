@@ -1,0 +1,3 @@
+chartointsum(A,B):- convlist(A,D,ord),zero(C),foldl(D,C,B,sum).
+% accuracy: 1.0
+% learning time: 5.858127125

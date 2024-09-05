@@ -1,0 +1,3 @@
+f1(A,B):- ho_155(A,C,cons3,is_lowercase,neg_number),ho_54(C,B,empty,head,mk_lowercase).
+% accuracy: 1.0
+% learning time: 897.986578542

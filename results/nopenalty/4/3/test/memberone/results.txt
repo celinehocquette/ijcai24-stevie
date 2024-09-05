@@ -1,0 +1,3 @@
+memberone(A):- ho_171(A,head,one_in).
+% accuracy: 1.0
+% learning time: 15.113527291999999

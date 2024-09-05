@@ -1,0 +1,4 @@
+maxlist(A,B):- empty(A),one(B).
+maxlist(A,B):- head(A,C),tail(A,E),maxlist(E,D),max(C,D,B).
+% accuracy: 1.0
+% learning time: 483.3927625

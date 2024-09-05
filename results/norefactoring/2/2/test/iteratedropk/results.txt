@@ -1,0 +1,4 @@
+iteratedropk(A,B,C):- zero_in(A),eq_list(B,C).
+iteratedropk(A,B,C):- decrement(A,D),iteratedropk(D,B,E),tail(E,C).
+% accuracy: 1.0
+% learning time: 5.751845959

@@ -1,0 +1,4 @@
+memberthree(A):- head(A,C),decrement(C,D),decrement(D,B),one_in(B).
+memberthree(A):- tail(A,B),memberthree(B).
+% accuracy: 1.0
+% learning time: 14.061155874999999

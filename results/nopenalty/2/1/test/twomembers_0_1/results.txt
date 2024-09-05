@@ -1,0 +1,4 @@
+twomembers_0_1(A):- ho_13(A,D,tail,one),ho_13(D,C,tail,zero),head(C,B),zero(B).
+twomembers_0_1(A):- ho_13(A,C,tail,zero),tail(C,B),tail(B,D),ho_13(B,D,tail,one).
+% accuracy: 0.778
+% learning time: 88.39713228600158

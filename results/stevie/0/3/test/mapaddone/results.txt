@@ -1,0 +1,3 @@
+mapaddone(A,B):- ho_185(A,B,increment).
+% accuracy: 1.0
+% learning time: 7.078492241000276

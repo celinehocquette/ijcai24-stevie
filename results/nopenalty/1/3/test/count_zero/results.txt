@@ -1,0 +1,3 @@
+count_zero(A,B):- ho_493(A,C,one,zero_in),ho_303(C,B,head,one,zero_in).
+% accuracy: 1.0
+% learning time: 9.542010240998934

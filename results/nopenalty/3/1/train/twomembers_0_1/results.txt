@@ -1,0 +1,5 @@
+twomembers_0_1(A):- tail(A,C),head(C,B),zero(B).
+twomembers_0_1(A):- tail(A,B),tail(B,C),twomembers_0_1(C).
+twomembers_0_1(A):- head(A,B),tail(A,C),odd(B),twomembers_0_1(C).
+% accuracy: 0.7275
+% learning time: 33.14100208799937

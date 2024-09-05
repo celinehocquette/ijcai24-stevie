@@ -1,0 +1,9 @@
+allgeqthree(A):- ho_445(A,inv_ho_0,head,my_succ).
+allgeqthree(A):- tail(A,B),ho_445(B,inv_ho_0,head,geq).
+inv_ho_0(A,B):- tail(A,C),tail(C,B).
+allgeqthree(A):- tail(A,C),ho_239(C,B,tail,head,even),head(B,D),head(C,D).
+allgeqthree(A):- ho_1(A,D,tail),head(D,B),tail(D,C),head(C,E),my_succ(E,B).
+allgeqthree(A):- ho_1(A,C,tail),head(A,D),head(C,B),odd(B),odd(D).
+allgeqthree(A):- ho_239(A,C,tail,head,even),head(A,E),head(C,D),my_succ(B,D),my_succ(E,B).
+% accuracy: 0.507
+% learning time: 380.3963450479987

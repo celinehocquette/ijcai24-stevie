@@ -1,0 +1,3 @@
+mapsquare(A,B):- convlist(A,B,square).
+% accuracy: 1.0
+% learning time: 4.4939441250000005

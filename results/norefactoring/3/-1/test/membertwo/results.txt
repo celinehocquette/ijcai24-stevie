@@ -1,0 +1,4 @@
+membertwo(A):- head(A,C),decrement(C,B),one_in(B).
+membertwo(A):- tail(A,B),membertwo(B).
+% accuracy: 1.0
+% learning time: 11.382449291

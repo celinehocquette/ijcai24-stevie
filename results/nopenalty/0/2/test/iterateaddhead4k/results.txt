@@ -1,0 +1,4 @@
+iterateaddhead4k(A,B,C):- ho_177(A,B,C,eq_list,eq_list).
+iterateaddhead4k(A,B,C):- ho_177(A,B,D,eq_list,addhead1),iterateaddhead4k(A,D,C).
+% accuracy: 0.9975
+% learning time: 320.9378017710005

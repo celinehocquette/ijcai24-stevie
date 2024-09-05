@@ -1,0 +1,4 @@
+member(A,B):- head(A,B).
+member(A,B):- tail(A,C),member(C,B).
+% accuracy: 1.0
+% learning time: 0.2877078049999682

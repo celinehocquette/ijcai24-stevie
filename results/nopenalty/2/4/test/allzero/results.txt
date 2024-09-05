@@ -1,0 +1,3 @@
+allzero(A):- ho_45(A,zero_in).
+% accuracy: 1.0
+% learning time: 25.958676218993787

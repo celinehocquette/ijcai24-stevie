@@ -1,0 +1,3 @@
+addtwo(A,B):- convlist(A,C,increment),maplist(C,B,increment).
+% accuracy: 1.0
+% learning time: 46.074136833000004

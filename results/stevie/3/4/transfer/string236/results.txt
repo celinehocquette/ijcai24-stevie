@@ -1,0 +1,3 @@
+f236(A,B):- ho_75(A,B,tail,neg_lowercase),ho_32(B,is_letter).
+% accuracy: 1.0
+% learning time: 171.5896779149989

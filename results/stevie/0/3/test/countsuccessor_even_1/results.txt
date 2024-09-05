@@ -1,0 +1,3 @@
+countsuccessor_even_1(A,B):- ho_148(A,C,odd,even),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 10.283523518999573

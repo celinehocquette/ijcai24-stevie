@@ -1,0 +1,3 @@
+f7bis(A,B):- ho_496(A,C,empty,is_lowercase,is_uppercase),ho_135(C,B,empty,head,mk_lowercase).
+% accuracy: 1.0
+% learning time: 47.18089812299877

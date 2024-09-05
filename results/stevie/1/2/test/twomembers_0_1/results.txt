@@ -1,0 +1,5 @@
+twomembers_0_1(A):- head(A,B),one(B).
+twomembers_0_1(A):- ho_5(A,C,tail,one),ho_5(C,D,tail,zero),head(D,B),zero(B).
+twomembers_0_1(A):- ho_5(A,C,tail,zero),ho_5(C,B,tail,one),head(B,D),odd(D).
+% accuracy: 0.9485
+% learning time: 116.83315192899954

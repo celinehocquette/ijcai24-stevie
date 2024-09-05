@@ -1,0 +1,7 @@
+dropuntileven(A,B):- ho_487(A,B,odd,inv_ho_0).
+inv_ho_0(A,B):- ho_1(A,C,tail),tail(C,B).
+dropuntileven(A,B):- ho_1(A,C,tail),ho_1(C,B,tail).
+inv_ho_0(A):- empty(B),empty(C),ho_15(A,C,B,dropuntileven).
+dropuntileven(A,B):- tail(A,D),inv_ho_0(D,C),ho_1(C,B,inv_ho_0).
+% accuracy: 0.6525
+% learning time: 300.4753948590005

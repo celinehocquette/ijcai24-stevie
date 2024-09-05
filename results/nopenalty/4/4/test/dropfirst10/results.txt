@@ -1,0 +1,3 @@
+dropfirst10(A,B):- ho_1(A,C,tail),ho_1(C,B,tail).
+% accuracy: 1.0
+% learning time: 17.173935416

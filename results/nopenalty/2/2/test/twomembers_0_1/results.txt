@@ -1,0 +1,4 @@
+twomembers_0_1(A):- ho_15(A,D,tail,head,zero),ho_15(D,B,tail,head,one),head(B,C),one(C).
+twomembers_0_1(A):- ho_15(A,B,tail,head,even),head(A,D),tail(B,C),ho_15(B,C,tail,head,zero),odd(D).
+% accuracy: 0.75
+% learning time: 597.8914504610002

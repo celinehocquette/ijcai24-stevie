@@ -1,0 +1,4 @@
+allpositiveallodd(A):- empty(A).
+allpositiveallodd(A):- head(A,B),tail(A,C),odd(B),allpositiveallodd(C).
+% accuracy: 0.9815
+% learning time: 9.071342375

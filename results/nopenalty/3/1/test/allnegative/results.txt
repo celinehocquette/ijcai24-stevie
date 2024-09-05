@@ -1,0 +1,3 @@
+allnegative(A):- ho_29(A,empty,tail,negative).
+% accuracy: 1.0
+% learning time: 11.363128790995688

@@ -1,0 +1,4 @@
+encrypt_2_1(A,B):- ho_61(A,B,inv_ho_0).
+inv_ho_0(A,B):- ord(A,C),increment(C,D),bin(D,B).
+% accuracy: 1.0
+% learning time: 133.74948287400002

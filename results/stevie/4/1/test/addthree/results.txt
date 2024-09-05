@@ -1,0 +1,4 @@
+addthree(A,B):- ho_251(A,B,inv_ho_0).
+inv_ho_0(A,B):- increment(A,D),increment(D,C),increment(C,B).
+% accuracy: 1.0
+% learning time: 775.3732603340031

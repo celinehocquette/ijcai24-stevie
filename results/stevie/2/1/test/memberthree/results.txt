@@ -1,0 +1,4 @@
+memberthree(A):- tail(A,B),ho_21(A,B,tail,one_in).
+memberthree(A):- ho_21(A,E,tail,odd),head(E,C),decrement(C,D),decrement(D,B),one_in(B).
+% accuracy: 0.95
+% learning time: 194.78627374799999

@@ -1,0 +1,4 @@
+iteraterepeatN(A,B,C):- zero_in(A),eq_list(B,C).
+iteraterepeatN(A,B,C):- decrement(A,E),iteraterepeatN(E,B,D),duplhead(D,C).
+% accuracy: 1.0
+% learning time: 3.1830409169999996

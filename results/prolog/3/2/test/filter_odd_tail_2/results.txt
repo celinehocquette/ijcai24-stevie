@@ -1,0 +1,3 @@
+filter_odd_tail_2(A,B):- partition(A,D,E,even),partition(A,E,D,odd),tail(D,C),tail(C,B).
+% accuracy: 1.0
+% learning time: 249.82341654200002

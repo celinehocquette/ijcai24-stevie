@@ -1,0 +1,3 @@
+dropk(A,B,C):- ho_42(A,B,C,zero,eq_list,tail).
+% accuracy: 1.0
+% learning time: 1.922215389997291

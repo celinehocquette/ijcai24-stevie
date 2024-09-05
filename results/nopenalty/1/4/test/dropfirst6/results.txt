@@ -1,0 +1,3 @@
+dropfirst6(A,B):- ho_1(A,C,tail),tail(C,B).
+% accuracy: 1.0
+% learning time: 29.24315797699819

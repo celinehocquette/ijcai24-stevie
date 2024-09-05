@@ -1,0 +1,5 @@
+ho_4(A,P) :- empty(A)
+ho_4(A,P) :- head(A,B),tail(A,C),P(B),ho_4(C,P)
+ho_44(A,B,P) :- empty(A),empty(B)
+ho_44(A,B,P) :- head(A,C),tail(A,D),head(B,E),tail(B,F),P(C,E),ho_44(D,F,P)
+ho_1(A,B,P) :- P(A,C),P(C,D),P(D,E),P(E,F),P(F,B)

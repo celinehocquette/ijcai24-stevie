@@ -1,0 +1,3 @@
+maxlistplus3(A,B):- ho_51(A,C,zero,max),increment(C,E),increment(E,D),increment(D,B).
+% accuracy: 1.0
+% learning time: 9.670284425999853

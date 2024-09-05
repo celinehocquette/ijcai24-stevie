@@ -1,0 +1,3 @@
+decrement_seq(A):- ho_267(A,decrementin).
+% accuracy: 1.0
+% learning time: 6.435391097998945

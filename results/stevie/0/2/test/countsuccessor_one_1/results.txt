@@ -1,0 +1,3 @@
+countsuccessor_one_1(A,B):- ho_134(A,C,even,one_in),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 63.32537721399967

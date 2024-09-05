@@ -1,0 +1,3 @@
+mapfunc_double_addlast1(A,B):- maplist(A,C,double),addlast1(C,B).
+% accuracy: 1.0
+% learning time: 17.660590334000002

@@ -1,0 +1,3 @@
+mapfilter_increment_odd(A,B):- ho_1(A,negative),ho_1(B,positive).
+% accuracy: 0.9895
+% learning time: 0.30340557400086254

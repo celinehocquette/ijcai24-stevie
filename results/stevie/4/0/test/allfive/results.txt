@@ -1,0 +1,4 @@
+allfive(A):- head(A,B),ho_10(A,inv_ho_0),odd(B).
+inv_ho_0(A,B):- odd(A),decrement(B,F),decrement(F,E),decrement(E,C),decrement(C,D),one_in(D).
+% accuracy: 0.9935
+% learning time: 496.85307857799853

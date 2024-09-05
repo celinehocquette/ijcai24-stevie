@@ -1,0 +1,5 @@
+allpositivememberone(A):- head(A,B),one_in(B).
+allpositivememberone(A):- head(A,B),tail(A,C),odd(B),allpositivememberone(C).
+allpositivememberone(A):- tail(A,D),allpositivememberone(D),tail(D,B),head(B,C),positive(C).
+% accuracy: 0.9065
+% learning time: 197.83228303599753

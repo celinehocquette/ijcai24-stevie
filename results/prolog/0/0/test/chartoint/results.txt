@@ -1,0 +1,3 @@
+chartoint(A,B):- convlist(A,B,ord).
+% accuracy: 1.0
+% learning time: 3.8671067499999996

@@ -1,0 +1,4 @@
+allpositive(A):- empty(A).
+allpositive(A):- head(A,B),tail(A,C),positive(B),allpositive(C).
+% accuracy: 1.0
+% learning time: 3.417960368999047

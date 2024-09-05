@@ -1,0 +1,3 @@
+count_even(A,B):- ho_279(A,B,odd,even).
+% accuracy: 1.0
+% learning time: 2.3356939489995057

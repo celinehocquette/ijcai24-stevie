@@ -1,0 +1,4 @@
+membertwo(A):- ho_2(A,inv_ho_0).
+inv_ho_0(A):- decrement(A,B),one_in(B).
+% accuracy: 1.0
+% learning time: 26.065800565000245

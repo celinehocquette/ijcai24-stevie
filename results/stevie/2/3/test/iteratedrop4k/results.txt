@@ -1,0 +1,4 @@
+iteratedrop4k(A,B,C):- ho_2(A,B,C,inv_ho_0).
+inv_ho_0(A,B):- tail(A,E),tail(E,D),tail(D,C),tail(C,B).
+% accuracy: 1.0
+% learning time: 152.09462177000023

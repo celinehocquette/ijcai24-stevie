@@ -1,0 +1,3 @@
+f7bis(A,B):- ho_270(A,C,neg_uppercase,neg_number),ho_251(C,B,mk_lowercase).
+% accuracy: 1.0
+% learning time: 20.33

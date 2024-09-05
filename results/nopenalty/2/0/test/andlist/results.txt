@@ -1,0 +1,4 @@
+andlist(A,B):- ho_275(A,C,odd,one),head(C,B).
+andlist(A,B):- ho_275(A,C,odd,even),head(C,B).
+% accuracy: 1.0
+% learning time: 77.9671295349981

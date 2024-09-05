@@ -1,0 +1,3 @@
+minlistminus2(A,B):- ho_24(A,D,c100,tail,min),decrement(D,C),decrement(C,B).
+% accuracy: 1.0
+% learning time: 17.867352309000125

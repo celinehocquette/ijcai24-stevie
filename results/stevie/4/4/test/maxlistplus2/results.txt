@@ -1,0 +1,3 @@
+maxlistplus2(A,B):- ho_109(A,C,zero,max),increment(C,D),increment(D,B).
+% accuracy: 1.0
+% learning time: 8.353972113000054

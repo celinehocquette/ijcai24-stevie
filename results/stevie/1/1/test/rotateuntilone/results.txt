@@ -1,0 +1,3 @@
+rotateuntilone(A,B):- ho_7(A,B,rotate1,positive),head(B,C),one(C).
+% accuracy: 1.0
+% learning time: 11.72504594900056

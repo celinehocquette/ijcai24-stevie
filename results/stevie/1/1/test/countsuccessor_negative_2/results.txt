@@ -1,0 +1,4 @@
+countsuccessor_negative_2(A,B):- ho_1(A,D,tail),ho_320(D,C,negative,even),my_increment(C,B).
+countsuccessor_negative_2(A,B):- ho_320(A,D,positive,negative),my_increment(D,C),my_increment(C,B).
+% accuracy: 0.9945
+% learning time: 153.98093034399972

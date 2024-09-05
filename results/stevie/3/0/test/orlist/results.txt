@@ -1,0 +1,4 @@
+orlist(A,B):- ho_1(A,one),one(B).
+orlist(A,B):- head(A,B),tail(A,C),empty(C).
+% accuracy: 0.927
+% learning time: 0.9289362899999105

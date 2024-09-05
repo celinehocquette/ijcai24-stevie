@@ -1,0 +1,3 @@
+andlist(A,B):- ho_356(A,B,one,and_element).
+% accuracy: 1.0
+% learning time: 47.07044157999917

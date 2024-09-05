@@ -1,0 +1,4 @@
+doubleheaduntil(A,B):- doublehead(A,B),head(B,C),c128(C).
+doubleheaduntil(A,B):- doublehead(A,C),doubleheaduntil(C,B).
+% accuracy: 1.0
+% learning time: 1.6267980000000002

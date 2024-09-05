@@ -1,0 +1,5 @@
+twomembers_0_3(A):- head(A,B),ho_19(A,C,tail,even),ho_149(B,A,C,one,tail).
+twomembers_0_3(A):- head(A,D),ho_149(D,A,B,even,tail),head(B,C),ho_149(C,A,B,zero,tail).
+twomembers_0_3(A):- ho_19(A,B,tail,odd),head(A,C),tail(B,D),ho_19(B,D,tail,zero),odd(C).
+% accuracy: 0.56
+% learning time: 333.4663073269985

@@ -1,0 +1,3 @@
+iterateaddlastk(A,B,C):- ho_24(A,B,C,addlast1).
+% accuracy: 1.0
+% learning time: 3.420231918000354

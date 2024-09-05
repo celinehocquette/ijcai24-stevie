@@ -1,0 +1,8 @@
+allgeqthree(A):- tail(A,B),empty(B).
+allgeqthree(A):- ho_1(A,B,tail),head(A,C),tail(B,D),head(D,C).
+allgeqthree(A):- head(A,E),my_succ(D,E),ho_173(D,A,B,tail),head(B,C),geq(D,C).
+allgeqthree(A):- head(A,D),tail(A,E),ho_1(E,B,tail),head(B,C),my_succ(D,C).
+allgeqthree(A):- tail(A,C),head(C,D),tail(C,E),odd(D),head(E,B),geq(D,B).
+allgeqthree(A):- ho_346(A,B,even,odd),tail(A,D),head(B,F),tail(D,E),tail(E,C),head(C,F).
+% accuracy: 0.486
+% learning time: 836.0591322580003

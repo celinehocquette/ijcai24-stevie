@@ -1,0 +1,3 @@
+mapfunc_square_duplhead(A,B):- maplist(A,C,square),duplhead(C,B).
+% accuracy: 1.0
+% learning time: 4.436146041

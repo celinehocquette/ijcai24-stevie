@@ -1,0 +1,4 @@
+mylength(A,B):- tail(A,C),one(B),empty(C).
+mylength(A,B):- tail(A,D),mylength(D,C),increment(C,B).
+% accuracy: 1.0
+% learning time: 6.810558878998563

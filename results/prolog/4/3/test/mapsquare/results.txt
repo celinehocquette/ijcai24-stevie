@@ -1,0 +1,3 @@
+mapsquare(A,B):- maplist(A,B,square).
+% accuracy: 1.0
+% learning time: 4.3521860409999995

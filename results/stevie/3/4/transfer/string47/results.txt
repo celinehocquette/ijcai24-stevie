@@ -1,0 +1,3 @@
+f47(A,B):- ho_166(A,B,mk_lowercase).
+% accuracy: 1.0
+% learning time: 5.767843604997324

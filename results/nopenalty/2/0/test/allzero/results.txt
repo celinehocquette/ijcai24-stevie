@@ -1,0 +1,3 @@
+allzero(A):- ho_275(A,B,zero_in,one_in),ho_275(A,B,zero_in,zero_in).
+% accuracy: 1.0
+% learning time: 28.256634441000642

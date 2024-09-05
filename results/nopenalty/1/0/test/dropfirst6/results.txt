@@ -1,0 +1,4 @@
+dropfirst6(A,B):- tail(A,C),ho_22(A,C,tail,head,even),ho_22(C,B,tail,head,odd).
+dropfirst6(A,B):- ho_22(A,C,tail,head,even),tail(C,E),tail(E,B),ho_22(B,D,tail,head,even),ho_36(D,even).
+% accuracy: 0.5395
+% learning time: 325.8191549910007

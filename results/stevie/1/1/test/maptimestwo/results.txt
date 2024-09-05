@@ -1,0 +1,3 @@
+maptimestwo(A,B):- ho_60(A,B,double).
+% accuracy: 1.0
+% learning time: 3.3278063950001524

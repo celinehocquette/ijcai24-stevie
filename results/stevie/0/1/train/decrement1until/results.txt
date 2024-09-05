@@ -1,0 +1,4 @@
+decrement1until(A,B):- decrementhead1(A,B),head(B,C),zero_in(C).
+decrement1until(A,B):- decrementhead1(A,C),decrement1until(C,B).
+% accuracy: 1.0
+% learning time: 2.7078152679996492

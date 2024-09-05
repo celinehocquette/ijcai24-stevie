@@ -1,0 +1,6 @@
+inv_ho_0(A,B):- ho_19(A,B,tail,odd).
+twomembers_2_3(A):- inv_ho_0(A,B),ho_1(A,C,inv_ho_0),tail(C,B).
+twomembers_2_3(A):- head(A,B),ho_153(B,A,C,one,decrement,tail),empty(C).
+twomembers_2_3(A):- head(A,C),odd(C),ho_153(C,A,B,even,decrement,tail),ho_153(C,B,D,even,decrement,tail),empty(D).
+% accuracy: 0.4955
+% learning time: 786.2404631270001

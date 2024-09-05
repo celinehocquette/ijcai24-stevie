@@ -1,0 +1,4 @@
+orlist(A,B):- ho_185(A,C,zero,one),head(C,B).
+orlist(A,B):- ho_29(A,zero),zero(B).
+% accuracy: 1.0
+% learning time: 10.161756825000339

@@ -1,0 +1,4 @@
+mylength(A,B):- ho_495(A,B,zero,inv_ho_0).
+inv_ho_0(A,B,C):- increment(A,C).
+% accuracy: 1.0
+% learning time: 11.916117228000076

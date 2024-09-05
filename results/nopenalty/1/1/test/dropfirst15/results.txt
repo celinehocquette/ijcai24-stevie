@@ -1,0 +1,5 @@
+dropfirst15(A,B):- ho_19(A,C,tail,even),tail(C,B),tail(B,D),ho_19(B,D,tail,odd).
+dropfirst15(A,B):- ho_19(A,D,tail,odd),tail(D,B),head(B,C),ho_149(C,A,B,even,tail).
+dropfirst15(A,B):- ho_19(A,B,tail,even),head(B,D),ho_149(D,B,C,zero,tail),ho_46(C,empty,head,odd).
+% accuracy: 0.5005
+% learning time: 720.5696136859988

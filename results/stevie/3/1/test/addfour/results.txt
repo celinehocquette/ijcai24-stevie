@@ -1,0 +1,4 @@
+addfour(A,B):- ho_164(A,B,inv_ho_0).
+inv_ho_0(A,B):- increment(A,C),increment(C,D),increment(D,E),increment(E,B).
+% accuracy: 1.0
+% learning time: 485.8770364549964

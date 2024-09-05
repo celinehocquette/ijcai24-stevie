@@ -1,0 +1,4 @@
+sorted(A):- ho_405(A,tail,empty,inv_ho_0).
+inv_ho_0(A,B):- geq(B,A).
+% accuracy: 1.0
+% learning time: 51.14692551000189

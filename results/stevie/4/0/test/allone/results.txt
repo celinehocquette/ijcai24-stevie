@@ -1,0 +1,3 @@
+allone(A):- ho_149(A,B,odd,one_in),ho_149(A,B,one_in,zero_in).
+% accuracy: 1.0
+% learning time: 2.069981214001018

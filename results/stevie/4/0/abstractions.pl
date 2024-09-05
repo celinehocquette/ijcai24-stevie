@@ -1,0 +1,5 @@
+ho_149(A,B,P,Q) :- empty(A),zero_int(B)
+ho_149(A,B,P,Q) :- head(A,C),tail(A,D),P(C),ho_149(D,B,P,Q)
+ho_149(A,B,P,Q) :- head(A,C),tail(A,D),Q(C),ho_149(D,E,P,Q),my_increment(E,B)
+ho_10(A,P) :- tail(A,B),empty(B)
+ho_10(A,P) :- head(A,B),tail(A,C),ho_10(C,P),head(C,D),P(B,D)

@@ -1,0 +1,4 @@
+filter_odd_tail_3(A,B):- ho_70(A,C,tail,positive),ho_183(C,B,positive,negative).
+filter_odd_tail_3(A,B):- ho_183(A,C,odd,even),ho_70(C,B,tail,positive).
+% accuracy: 0.531
+% learning time: 115.38066578700091

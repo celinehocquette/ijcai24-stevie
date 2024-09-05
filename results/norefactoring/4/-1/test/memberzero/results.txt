@@ -1,0 +1,4 @@
+memberzero(A):- head(A,B),zero_in(B).
+memberzero(A):- tail(A,B),memberzero(B).
+% accuracy: 1.0
+% learning time: 1.968664875

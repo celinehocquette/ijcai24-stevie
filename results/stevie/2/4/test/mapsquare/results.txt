@@ -1,0 +1,3 @@
+mapsquare(A,B):- ho_143(A,B,square).
+% accuracy: 1.0
+% learning time: 5.306309827999939

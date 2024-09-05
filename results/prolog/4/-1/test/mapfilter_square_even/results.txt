@@ -1,0 +1,4 @@
+mapfilter_square_even(A,B):- convlist(A,B,inv_ho_0).
+inv_ho_0(A,B):- odd(A),square(A,B).
+% accuracy: 1.0
+% learning time: 652.168737667

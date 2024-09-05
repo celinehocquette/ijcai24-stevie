@@ -1,0 +1,8 @@
+allgeqtwo(A):- head(A,D),ho_149(D,A,B,one,tail),head(B,C),even(C).
+allgeqtwo(A):- ho_19(A,C,tail,even),head(A,D),head(C,B),my_succ(D,B).
+allgeqtwo(A):- head(A,D),ho_149(D,A,C,odd,tail),head(C,B),my_succ(D,B).
+allgeqtwo(A):- head(A,B),ho_19(A,E,tail,odd),my_succ(D,B),my_succ(C,D),head(E,C).
+allgeqtwo(A):- tail(A,B),head(B,D),ho_149(D,B,C,zero,tail),head(C,E),my_succ(D,E).
+allgeqtwo(A):- tail(A,B),tail(B,C),head(C,E),ho_149(E,A,D,zero,tail),empty(D).
+% accuracy: 0.5035
+% learning time: 669.4716389450004

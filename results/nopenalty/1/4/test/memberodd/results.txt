@@ -1,0 +1,3 @@
+memberodd(A):- ho_138(A,odd).
+% accuracy: 1.0
+% learning time: 25.66587195199827

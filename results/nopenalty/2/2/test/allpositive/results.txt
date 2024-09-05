@@ -1,0 +1,3 @@
+allpositive(A):- ho_178(A,B,head,one_in,positive),ho_178(A,B,head,zero_in,positive).
+% accuracy: 1.0
+% learning time: 30.766951224002696

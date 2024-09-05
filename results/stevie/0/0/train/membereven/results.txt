@@ -1,0 +1,4 @@
+membereven(A):- head(A,B),even(B).
+membereven(A):- tail(A,B),membereven(B).
+% accuracy: 1.0
+% learning time: 1.25992019899968

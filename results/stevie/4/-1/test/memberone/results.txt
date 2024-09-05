@@ -1,0 +1,4 @@
+memberone(A):- head(A,B),one_in(B).
+memberone(A):- tail(A,B),memberone(B).
+% accuracy: 1.0
+% learning time: 1.3533114390011178

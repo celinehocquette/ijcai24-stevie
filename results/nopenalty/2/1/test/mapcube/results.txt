@@ -1,0 +1,3 @@
+mapcube(A,B):- ho_328(A,B,empty,tail,cube).
+% accuracy: 1.0
+% learning time: 10.12485990699497

@@ -1,0 +1,4 @@
+memberfour(A):- head(A,D),decrement(D,E),decrement(E,B),decrement(B,C),one_in(C).
+memberfour(A):- tail(A,B),memberfour(B).
+% accuracy: 1.0
+% learning time: 2.934894322999753

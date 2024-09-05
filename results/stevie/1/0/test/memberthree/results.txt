@@ -1,0 +1,4 @@
+memberthree(A):- head(A,C),decrement(C,D),decrement(D,B),one_in(B).
+memberthree(A):- ho_5(A,E,tail,odd),head(E,B),decrement(B,C),decrement(C,D),one_in(D).
+% accuracy: 1.0
+% learning time: 228.84247078499993

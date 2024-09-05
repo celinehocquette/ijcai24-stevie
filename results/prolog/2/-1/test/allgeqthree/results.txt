@@ -1,0 +1,4 @@
+allgeqthree(A):- convlist(A,B,inv_ho_0),empty(B).
+inv_ho_0(A,B):- one(B),geq(B,A).
+% accuracy: 0.9215
+% learning time: 425.022770958

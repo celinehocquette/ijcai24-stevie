@@ -1,0 +1,4 @@
+andlist(A,B):- ho_290(A,even),zero(B).
+andlist(A,B):- ho_319(A,one),one(B).
+% accuracy: 1.0
+% learning time: 8.310039292999136

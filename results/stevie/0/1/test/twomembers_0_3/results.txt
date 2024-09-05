@@ -1,0 +1,7 @@
+twomembers_0_3(A):- ho_492(A,B,zero,odd),ho_2(B,odd).
+twomembers_0_3(A):- ho_1(A,B,tail),ho_492(A,D,even,odd),head(B,C),head(D,C).
+twomembers_0_3(A):- tail(A,B),ho_1(B,D,tail),head(D,C),ho_12(C,B,D,tail).
+twomembers_0_3(A):- ho_1(A,B,tail),head(B,D),empty(C),ho_12(D,B,C,tail).
+twomembers_0_3(A):- tail(A,C),ho_1(C,B,tail),head(B,D),ho_2(B,zero),even(D).
+% accuracy: 0.592
+% learning time: 586.8687432850002

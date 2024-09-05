@@ -1,0 +1,4 @@
+minlistminus3(A,B):- head(A,D),decrement(D,C),decrement(C,E),decrement(E,B).
+minlistminus3(A,B):- head(A,C),tail(A,E),minlistminus3(E,D),min(C,D,B),min(B,C,D).
+% accuracy: 0.984
+% learning time: 714.509659167

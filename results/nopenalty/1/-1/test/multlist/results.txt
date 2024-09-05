@@ -1,0 +1,4 @@
+multlist(A,B):- empty(A),one(B).
+multlist(A,B):- head(A,C),tail(A,E),multlist(E,D),mult(C,D,B).
+% accuracy: 1.0
+% learning time: 164.72134294600255

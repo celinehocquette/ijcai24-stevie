@@ -1,0 +1,3 @@
+mapcube(A,B):- convlist(A,B,cube).
+% accuracy: 1.0
+% learning time: 2.965637083

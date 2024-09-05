@@ -1,0 +1,4 @@
+addfive(A,B):- tail(A,C),tail(B,C).
+addfive(A,B):- maplist(A,C,increment),addfive(C,B).
+% accuracy: 0.986
+% learning time: 64.796979458

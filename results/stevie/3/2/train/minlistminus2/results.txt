@@ -1,0 +1,4 @@
+minlistminus2(A,B):- head(A,C),decrement(C,D),decrement(D,B).
+minlistminus2(A,B):- head(A,C),tail(A,E),minlistminus2(E,D),min(C,D,B),min(B,C,D).
+% accuracy: 0.9815
+% learning time: 113.71554312200169

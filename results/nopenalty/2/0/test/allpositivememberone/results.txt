@@ -1,0 +1,5 @@
+allpositivememberone(A):- tail(A,B),ho_14(A,B,tail,head,one_in).
+allpositivememberone(A):- ho_275(A,B,positive,odd),ho_14(A,B,tail,head,odd).
+allpositivememberone(A):- ho_275(A,B,positive,positive),ho_14(A,B,tail,head,one_in).
+% accuracy: 0.6745
+% learning time: 61.30142143800185

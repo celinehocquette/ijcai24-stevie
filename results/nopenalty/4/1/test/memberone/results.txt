@@ -1,0 +1,3 @@
+memberone(A):- ho_172(A,head,one_in,tail).
+% accuracy: 1.0
+% learning time: 17.953431708

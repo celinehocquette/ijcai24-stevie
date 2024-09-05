@@ -1,0 +1,3 @@
+allpositiveallodd(A):- partition(A,C,B,odd),partition(C,A,B,positive).
+% accuracy: 1.0
+% learning time: 16.137453958

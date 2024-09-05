@@ -1,0 +1,6 @@
+chartointsorteddecr(A):- tail(A,B),empty(B).
+chartointsorteddecr(A):- head(A,B),tail(A,C),ord(B,D),head(C,B),even(D).
+chartointsorteddecr(A):- tail(A,D),chartointsorteddecr(D),head(D,C),ord(C,B),odd(B).
+chartointsorteddecr(A):- tail(A,C),chartointsorteddecr(C),head(C,D),ord(D,B),even(B).
+% accuracy: 0.609
+% learning time: 305.540160416

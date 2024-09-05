@@ -1,0 +1,5 @@
+filter_negative(A,B):- empty(A),empty(B).
+filter_negative(A,B):- cons3(A,C,D),negative(C),filter_negative(D,B).
+filter_negative(A,B):- cons3(A,E,C),filter_negative(C,D),positive(E),cons(E,D,B).
+% accuracy: 1.0
+% learning time: 185.0083884149999

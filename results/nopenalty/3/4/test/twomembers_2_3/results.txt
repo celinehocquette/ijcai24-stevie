@@ -1,0 +1,5 @@
+twomembers_2_3(A):- ho_8(A,B,tail,head,zero),ho_13(B,odd,tail).
+twomembers_2_3(A):- tail(A,B),ho_8(B,C,tail,head,odd),head(B,D),ho_200(D,A,C,decrement,tail).
+twomembers_2_3(A):- tail(A,B),head(B,C),even(C),ho_200(C,B,D,decrement,tail),ho_13(D,odd,tail).
+% accuracy: 0.517
+% learning time: 420.68341622799926

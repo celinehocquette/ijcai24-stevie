@@ -1,0 +1,16 @@
+addhead5(A,B):- addhead1(A,D),addhead1(D,E),addhead1(E,C),addhead1(C,F),addhead1(F,B).
+sum_list(A,B):- empty(A),zero(B).
+sum_list(A,B):- head(A,C),tail(A,E),sum_list(E,D),sum(C,D,B).
+allpositiveallodd(A):- empty(A).
+allpositiveallodd(A):- head(A,B),tail(A,C),positive(B),odd(B),allpositiveallodd(C).
+memberthree(A):- head(A,D),decrement(D,B),decrement(B,C),one_in(C).
+memberthree(A):- tail(A,B),memberthree(B).
+count_positive(A,B):- empty(A),zero_int(B).
+count_positive(A,B):- head(A,C),tail(A,D),negative(C),count_positive(D,B).
+count_positive(A,B):- head(A,C),tail(A,D),positive(C),count_positive(D,E),my_increment(E,B).
+inttobin(A,B):- empty(A),empty(B).
+inttobin(A,B):- head(A,C),tail(A,D),head(B,E),tail(B,F),bin(C,E),inttobin(D,F).
+maptimesthree(A,B):- empty(A),empty(B).
+maptimesthree(A,B):- head(A,E),tail(A,F),head(B,C),tail(B,D),triple(E,C),maptimesthree(F,D).
+mapchangesign(A,B):- empty(A),empty(B).
+mapchangesign(A,B):- head(A,E),tail(A,F),head(B,C),tail(B,D),changesign(E,C),mapchangesign(F,D).

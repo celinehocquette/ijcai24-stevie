@@ -1,0 +1,5 @@
+dropfirst15(A,B):- ho_8(A,B,inv_ho_0,head,odd).
+inv_ho_0(A,B):- ho_1(A,B,tail).
+dropfirst15(A,B):- ho_8(A,B,inv_ho_0,head,even).
+% accuracy: 0.93
+% learning time: 126.71209898499364

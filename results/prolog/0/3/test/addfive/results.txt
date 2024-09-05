@@ -1,0 +1,4 @@
+addfive(A,B):- tail(A,C),tail(B,C).
+addfive(A,B):- convlist(A,C,increment),addfive(C,B).
+% accuracy: 0.974
+% learning time: 231.47776008399998

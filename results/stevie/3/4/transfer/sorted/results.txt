@@ -1,0 +1,4 @@
+inv_ho_0(A,B):- geq(B,A).
+sorted(A):- ho_267(A,inv_ho_0).
+% accuracy: 1.0
+% learning time: 8.374070788999234

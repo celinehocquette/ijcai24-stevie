@@ -1,0 +1,5 @@
+sorted_decr(A):- ho_4(A,even).
+sorted_decr(A):- ho_1(A,E,tail),tail(E,D),tail(D,B),head(B,C),tail(B,F),head(F,C).
+sorted_decr(A):- tail(A,B),ho_1(A,E,tail),head(B,C),head(E,D),geq(C,D),odd(D).
+% accuracy: 0.6425
+% learning time: 110.953280125

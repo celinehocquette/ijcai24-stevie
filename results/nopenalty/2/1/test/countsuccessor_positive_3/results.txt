@@ -1,0 +1,3 @@
+countsuccessor_positive_3(A,B):- ho_211(A,D,one_int,negative,positive),my_increment(D,C),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 240.39775646500493

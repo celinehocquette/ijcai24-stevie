@@ -1,0 +1,4 @@
+sorted_decr(A):- ho_5(A,C,tail,even),head(C,B),tail(C,D),head(D,B).
+sorted_decr(A):- head(A,C),tail(A,D),even(C),head(D,B),geq(C,B).
+% accuracy: 0.7505
+% learning time: 395.2852906860003

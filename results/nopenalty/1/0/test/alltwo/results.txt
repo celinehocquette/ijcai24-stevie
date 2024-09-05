@@ -1,0 +1,4 @@
+alltwo(A):- ho_36(A,inv_ho_0).
+inv_ho_0(A):- decrement(A,B),decrement(B,C),zero_in(C).
+% accuracy: 1.0
+% learning time: 52.552629451998655

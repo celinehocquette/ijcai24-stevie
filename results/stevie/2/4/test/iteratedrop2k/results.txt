@@ -1,0 +1,3 @@
+iteratedrop2k(A,B,C):- ho_5(A,B,D,tail),ho_5(A,D,C,tail).
+% accuracy: 1.0
+% learning time: 1.5698980839988508

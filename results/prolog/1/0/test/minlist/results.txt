@@ -1,0 +1,3 @@
+minlist(A,B):- head(A,C),foldl(A,C,B,min).
+% accuracy: 1.0
+% learning time: 18.833800292

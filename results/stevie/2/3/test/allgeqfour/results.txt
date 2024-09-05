@@ -1,0 +1,7 @@
+allgeqfour(A):- ho_62(A,geq).
+allgeqfour(A):- head(A,B),ho_19(A,C,tail,even),head(C,B).
+allgeqfour(A):- tail(A,D),ho_19(A,D,tail,even),tail(D,C),head(C,B),odd(B).
+allgeqfour(A):- ho_19(A,E,tail,even),head(E,B),my_succ(C,B),tail(E,D),head(D,C).
+allgeqfour(A):- ho_1(A,D,tail),tail(A,E),head(D,B),my_succ(C,B),head(E,C).
+% accuracy: 0.516
+% learning time: 546.9190987090005

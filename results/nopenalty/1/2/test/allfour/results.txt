@@ -1,0 +1,4 @@
+allfour(A):- ho_34(A,inv_ho_0).
+inv_ho_0(A):- decrement(A,D),decrement(D,C),decrement(C,B),one_in(B).
+% accuracy: 1.0
+% learning time: 866.5559760350006

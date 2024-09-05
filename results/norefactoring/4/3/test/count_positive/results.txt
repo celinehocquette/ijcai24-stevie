@@ -1,0 +1,5 @@
+count_positive(A,B):- empty(A),zero_int(B).
+count_positive(A,B):- head(A,C),tail(A,D),negative(C),count_positive(D,B).
+count_positive(A,B):- head(A,D),tail(A,E),positive(D),count_positive(E,C),my_increment(C,B).
+% accuracy: 1.0
+% learning time: 368.29264679199997

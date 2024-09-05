@@ -1,0 +1,3 @@
+allone(A):- ho_24(A,one_in).
+% accuracy: 1.0
+% learning time: 1.3674479089995657

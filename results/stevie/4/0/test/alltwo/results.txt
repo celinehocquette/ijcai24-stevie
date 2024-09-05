@@ -1,0 +1,4 @@
+inv_ho_0(A,B):- decrement(A,C),even(B),one_in(C).
+alltwo(A):- head(A,B),ho_10(A,inv_ho_0),even(B).
+% accuracy: 0.9915
+% learning time: 45.89358513199841

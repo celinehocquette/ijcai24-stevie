@@ -1,0 +1,3 @@
+mapfilter_increment_even(A,B):- ho_14(A,negative,tail),ho_14(B,odd,tail).
+% accuracy: 0.9985
+% learning time: 116.7460174709995

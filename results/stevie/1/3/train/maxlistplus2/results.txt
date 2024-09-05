@@ -1,0 +1,4 @@
+maxlistplus2(A,B):- head(A,C),increment(C,D),increment(D,B).
+maxlistplus2(A,B):- head(A,D),tail(A,E),maxlistplus2(E,B),max(B,D,C),max(C,D,B).
+% accuracy: 0.9785
+% learning time: 42.82186318999993

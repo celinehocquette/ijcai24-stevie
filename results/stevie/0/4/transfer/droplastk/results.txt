@@ -1,0 +1,3 @@
+droplastk(A,B,C):- reverse(B,E),ho_16(A,E,D,tail),reverse(D,C).
+% accuracy: 1.0
+% learning time: 4.356838781000988

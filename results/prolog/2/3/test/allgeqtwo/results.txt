@@ -1,0 +1,4 @@
+inv_ho_0(A,B):- one(B),geq(B,A).
+allgeqtwo(A):- convlist(A,B,inv_ho_0),empty(B).
+% accuracy: 1.0
+% learning time: 284.092072875

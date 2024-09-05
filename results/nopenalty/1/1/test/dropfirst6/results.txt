@@ -1,0 +1,7 @@
+dropfirst6(A,B):- ho_19(A,B,tail,odd),ho_19(A,C,tail,even),ho_19(A,C,tail,zero).
+dropfirst6(A,B):- tail(A,C),head(C,D),ho_149(D,C,B,one,tail).
+dropfirst6(A,B):- ho_19(A,B,tail,odd),ho_19(A,D,tail,even),head(D,C),ho_149(C,B,D,one,tail).
+dropfirst6(A,B):- ho_19(A,C,tail,odd),tail(A,D),ho_19(D,B,tail,even),tail(D,C).
+dropfirst6(A,B):- tail(A,C),ho_19(A,C,tail,odd),ho_19(A,D,tail,even),ho_19(D,B,tail,even).
+% accuracy: 0.5415
+% learning time: 838.0343222099982

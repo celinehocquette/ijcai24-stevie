@@ -1,0 +1,3 @@
+decrement_seq(A):- ho_405(A,tail,empty,decrementin).
+% accuracy: 1.0
+% learning time: 54.632764993999444

@@ -1,0 +1,7 @@
+membersix(A):- head(A,B),tail(A,C),tail(C,D),head(D,B).
+membersix(A):- tail(A,E),tail(E,D),tail(D,C),head(C,B),one_in(B).
+membersix(A):- tail(A,E),head(E,C),tail(E,D),head(D,B),decrement(B,C).
+membersix(A):- head(A,B),tail(A,C),odd(B),head(C,D),even(D).
+membersix(A):- head(A,C),tail(A,D),odd(C),tail(D,E),head(E,B),even(B).
+% accuracy: 0.518
+% learning time: 8.755616834

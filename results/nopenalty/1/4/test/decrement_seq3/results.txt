@@ -1,0 +1,4 @@
+decrement_seq3(A):- ho_405(A,tail,empty,inv_ho_0).
+inv_ho_0(A,B):- decrement(A,C),decrement(C,D),decrement(D,B).
+% accuracy: 1.0
+% learning time: 513.9388351110028

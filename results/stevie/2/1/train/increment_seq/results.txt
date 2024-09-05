@@ -1,0 +1,4 @@
+increment_seq(A):- tail(A,B),empty(B).
+increment_seq(A):- head(A,C),tail(A,D),increment_seq(D),head(D,B),incrementin(C,B).
+% accuracy: 1.0
+% learning time: 7.742871400999775

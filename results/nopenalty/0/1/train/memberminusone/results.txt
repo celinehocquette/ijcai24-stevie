@@ -1,0 +1,4 @@
+memberminusone(A):- head(A,B),minusone(B).
+memberminusone(A):- tail(A,B),memberminusone(B).
+% accuracy: 1.0
+% learning time: 1.3135252590000164

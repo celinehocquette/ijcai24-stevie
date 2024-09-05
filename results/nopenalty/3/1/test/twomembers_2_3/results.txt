@@ -1,0 +1,6 @@
+twomembers_2_3(A):- ho_9(A,zero).
+twomembers_2_3(A):- ho_8(A,B,tail,head,one),ho_8(A,C,tail,head,even),tail(C,B).
+twomembers_2_3(A):- head(A,B),ho_8(A,C,tail,head,odd),even(B),ho_29(C,empty,tail,odd).
+twomembers_2_3(A):- ho_8(A,D,tail,head,even),head(D,C),decrement(C,B),one(B),ho_55(D,tail,head,decrement).
+% accuracy: 0.5305
+% learning time: 568.5097801899974

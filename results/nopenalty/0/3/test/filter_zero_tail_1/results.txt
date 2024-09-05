@@ -1,0 +1,3 @@
+filter_zero_tail_1(A,B):- ho_355(A,C,empty,even,one),tail(C,B).
+% accuracy: 1.0
+% learning time: 110.86046470899964

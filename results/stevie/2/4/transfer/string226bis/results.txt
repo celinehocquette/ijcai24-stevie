@@ -1,0 +1,3 @@
+f226bis(A,B):- ho_21(A,C,tail,is_uppercase),ho_143(C,B,mk_uppercase).
+% accuracy: 1.0
+% learning time: 668.0257371560001

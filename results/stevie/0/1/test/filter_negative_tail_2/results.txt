@@ -1,0 +1,3 @@
+filter_negative_tail_2(A,B):- ho_492(A,C,negative,positive),tail(C,D),tail(D,B).
+% accuracy: 1.0
+% learning time: 232.16174192800008

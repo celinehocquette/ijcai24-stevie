@@ -1,0 +1,6 @@
+twomembers_2_3(A):- ho_7(A,B,tail,one),tail(B,C),ho_7(B,C,tail,odd).
+twomembers_2_3(A):- tail(A,B),ho_7(A,C,tail,even),tail(B,C),ho_16(B,zero).
+twomembers_2_3(A):- ho_7(A,B,tail,odd),head(B,D),empty(C),ho_23(D,B,C,tail).
+twomembers_2_3(A):- ho_7(A,B,tail,odd),head(A,C),ho_155(B,odd),even(C).
+% accuracy: 0.527
+% learning time: 325.49392729400097

@@ -1,0 +1,3 @@
+iterateaddheadlastk(A,B,C):- ho_195(A,B,D,eq_list,addhead1),ho_195(A,D,C,eq_list,addlast1).
+% accuracy: 1.0
+% learning time: 93.98487068699615

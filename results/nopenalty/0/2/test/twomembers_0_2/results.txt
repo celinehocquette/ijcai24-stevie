@@ -1,0 +1,3 @@
+twomembers_0_2(A):- ho_239(A,C,tail,head,even),ho_161(A,head,zero),head(C,B),decrement(B,D),one(D).
+% accuracy: 0.9675
+% learning time: 696.9610538510005

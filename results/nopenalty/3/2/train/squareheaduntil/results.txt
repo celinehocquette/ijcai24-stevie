@@ -1,0 +1,4 @@
+squareheaduntil(A,B):- squarehead(A,B),head(B,C),c256(C).
+squareheaduntil(A,B):- squarehead(A,C),squareheaduntil(C,B).
+% accuracy: 1.0
+% learning time: 0.8811130289977882

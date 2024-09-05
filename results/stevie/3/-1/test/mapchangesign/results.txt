@@ -1,0 +1,4 @@
+mapchangesign(A,B):- empty(A),empty(B).
+mapchangesign(A,B):- head(A,C),tail(A,F),head(B,D),tail(B,E),changesign(C,D),mapchangesign(E,F).
+% accuracy: 1.0
+% learning time: 475.0885065370003

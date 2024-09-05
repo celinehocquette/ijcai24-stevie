@@ -1,0 +1,3 @@
+memberodd(A):- ho_290(A,C,empty,even,odd),tail(C,B),ho_14(C,B,tail,odd).
+% accuracy: 0.981
+% learning time: 462.9551697940042

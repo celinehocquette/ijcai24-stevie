@@ -1,0 +1,3 @@
+mapfunc_square_duplhead(A,B):- tail(B,C),ho_53(A,C,head,tail,square).
+% accuracy: 0.997
+% learning time: 129.786638708

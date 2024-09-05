@@ -1,0 +1,3 @@
+allodd(A):- ho_27(A,odd).
+% accuracy: 1.0
+% learning time: 3.1669312470003206

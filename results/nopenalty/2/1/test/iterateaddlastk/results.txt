@@ -1,0 +1,3 @@
+iterateaddlastk(A,B,C):- ho_41(A,B,C,zero_in,eq_list,addlast1).
+% accuracy: 1.0
+% learning time: 30.114463318997878

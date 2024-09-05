@@ -1,0 +1,4 @@
+iterateaddheadlastk(A,B,C):- zero_in(A),eq_list(B,C).
+iterateaddheadlastk(A,B,C):- decrement(A,E),addhead1(B,D),iterateaddheadlastk(E,D,F),addlast1(F,C).
+% accuracy: 1.0
+% learning time: 636.7098554160001

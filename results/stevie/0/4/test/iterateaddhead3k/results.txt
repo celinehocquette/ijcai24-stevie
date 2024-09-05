@@ -1,0 +1,3 @@
+iterateaddhead3k(A,B,C):- ho_16(A,B,E,addhead1),ho_16(A,E,D,addhead1),ho_16(A,D,C,addhead1).
+% accuracy: 1.0
+% learning time: 19.626152086999355

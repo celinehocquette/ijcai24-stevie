@@ -1,0 +1,4 @@
+line1(A,B):- ho_15(A,B,inv_ho_0,head,at_right).
+inv_ho_0(A,B):- draw1(A,C),move_right(C,B).
+% accuracy: 1.0
+% learning time: 317.03867471600097

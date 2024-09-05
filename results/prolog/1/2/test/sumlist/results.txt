@@ -1,0 +1,3 @@
+sum_list(A,B):- zero(C),foldl(A,C,B,sum).
+% accuracy: 1.0
+% learning time: 6.2998664589999995

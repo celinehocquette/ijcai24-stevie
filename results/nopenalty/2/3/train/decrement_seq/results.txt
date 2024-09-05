@@ -1,0 +1,4 @@
+decrement_seq(A):- empty(A).
+decrement_seq(A):- head(A,D),tail(A,E),head(E,B),decrementin(D,B),tail(E,C),decrement_seq(C).
+% accuracy: 0.7655
+% learning time: 9.627315222998732

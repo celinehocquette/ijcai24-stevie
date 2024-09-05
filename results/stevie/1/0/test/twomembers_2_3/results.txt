@@ -1,0 +1,5 @@
+twomembers_2_3(A):- ho_5(A,C,tail,zero),ho_5(C,B,tail,even),tail(B,D),empty(D).
+twomembers_2_3(A):- ho_5(A,B,tail,even),tail(A,C),ho_5(A,C,tail,even),tail(C,B).
+twomembers_2_3(A):- tail(A,B),ho_5(A,B,tail,odd),ho_5(A,D,tail,even),empty(C),tail(D,C).
+% accuracy: 0.5155
+% learning time: 151.02716245800002

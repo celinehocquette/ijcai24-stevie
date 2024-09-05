@@ -1,0 +1,17 @@
+ho_141(A,B,P,Q,R) :- empty(A),empty(B)
+ho_141(A,B,P,Q,R) :- P(A,C),Q(A,D),P(B,E),Q(B,F),R(C,E),ho_141(D,F,P,Q,R)
+inttobin(A,B) :- ho_141(A,B,head,tail,bin)
+maptimesthree(A,B) :- ho_141(A,B,head,tail,triple)
+mapchangesign(A,B) :- ho_141(A,B,head,tail,changesign)
+addhead5(A,B) :- addhead1(A,C),addhead1(C,D),addhead1(D,E),addhead1(E,F),addhead1(F,B)
+sum_list(A,B) :- empty(A),zero(B)
+sum_list(A,B) :- head(A,C),tail(A,D),sum_list(D,E),sum(C,E,B)
+allpositiveallodd(A) :- empty(A)
+allpositiveallodd(A) :- head(A,B),tail(A,C),positive(B),odd(B),allpositiveallodd(C)
+memberthree(A) :- head(A,B),decrement(B,C),decrement(C,D),one_in(D)
+memberthree(A) :- tail(A,B),memberthree(B)
+count_positive(A,B) :- empty(A),zero_int(B)
+count_positive(A,B) :- head(A,C),tail(A,D),negative(C),count_positive(D,B)
+count_positive(A,B) :- head(A,C),tail(A,D),positive(C),count_positive(D,E),my_increment(E,B)
+
+ stevie time 0.15184435500123072

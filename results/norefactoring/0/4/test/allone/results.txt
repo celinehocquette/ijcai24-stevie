@@ -1,0 +1,4 @@
+allone(A):- empty(A).
+allone(A):- head(A,B),tail(A,C),one_in(B),allone(C).
+% accuracy: 1.0
+% learning time: 3.516841209

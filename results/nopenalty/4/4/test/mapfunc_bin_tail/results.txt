@@ -1,0 +1,3 @@
+mapfunc_bin_tail(A,B):- tail(A,C),ho_54(C,B,empty,head,bin).
+% accuracy: 1.0
+% learning time: 409.835732667

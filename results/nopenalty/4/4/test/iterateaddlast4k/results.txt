@@ -1,0 +1,4 @@
+iterateaddlast4k(A,B,C):- ho_180(A,B,C,decrement,addlast1).
+iterateaddlast4k(A,B,C):- ho_180(A,B,D,decrement,addlast1),iterateaddlast4k(A,D,C).
+% accuracy: 0.997
+% learning time: 120.58917225

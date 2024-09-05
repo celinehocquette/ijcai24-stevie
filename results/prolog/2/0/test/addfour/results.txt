@@ -1,0 +1,4 @@
+addfour(A,B):- tail(A,C),tail(B,C).
+addfour(A,B):- convlist(A,C,increment),addfour(C,B).
+% accuracy: 0.977
+% learning time: 28.010242959

@@ -1,0 +1,4 @@
+alleven(A):- empty(A).
+alleven(A):- tail(A,B),head(A,C),alleven(B),even(C).
+% accuracy: 1.0
+% learning time: 1.0266674389999935

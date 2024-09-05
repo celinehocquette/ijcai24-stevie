@@ -1,0 +1,10 @@
+twomembers_2_3(A):- ho_152(A,B,tail,even,odd),ho_152(A,B,tail,odd,even).
+twomembers_2_3(A):- ho_490(A,B,odd,even),ho_1(B,C,tail),empty(C).
+twomembers_2_3(A):- ho_8(A,B,tail,head,one),tail(B,C),ho_15(C,head,one,tail).
+twomembers_2_3(A):- ho_1(A,B,tail),ho_490(A,C,even,odd),head(B,D),head(C,D).
+twomembers_2_3(A):- tail(A,D),head(D,C),decrement(C,B),one(B).
+twomembers_2_3(A):- ho_8(A,B,tail,head,odd),head(B,C),tail(B,D),head(D,C).
+twomembers_2_3(A):- ho_8(A,B,tail,head,odd),head(A,C),ho_1(B,D,tail),head(D,C).
+twomembers_2_3(A):- ho_1(A,B,tail),head(B,C),decrement(C,D),one(D).
+% accuracy: 0.5355
+% learning time: 267.5455420520011

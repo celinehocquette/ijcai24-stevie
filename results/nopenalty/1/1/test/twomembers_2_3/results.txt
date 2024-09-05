@@ -1,0 +1,6 @@
+twomembers_2_3(A):- ho_19(A,B,tail,odd),ho_46(B,empty,head,one).
+twomembers_2_3(A):- head(A,B),ho_149(B,A,D,odd,tail),head(D,C),decrement(C,B).
+twomembers_2_3(A):- ho_19(A,B,tail,odd),head(B,C),tail(B,D),head(D,C).
+twomembers_2_3(A):- tail(A,C),tail(C,B),tail(B,D),ho_19(B,D,tail,odd),ho_19(C,B,tail,odd).
+% accuracy: 0.523
+% learning time: 360.87031986299917

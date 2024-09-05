@@ -1,0 +1,4 @@
+memberodd(A):- ho_46(A,inv_ho_0,head,even).
+inv_ho_0(A):- head(A,B),odd(B).
+% accuracy: 1.0
+% learning time: 616.4361692380007

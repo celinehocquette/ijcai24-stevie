@@ -1,0 +1,4 @@
+inv_ho_0(A):- one(A),odd(A).
+multlistplus2(A,B):- ho_51(A,D,inv_ho_0,mult),increment(D,C),increment(C,B).
+% accuracy: 1.0
+% learning time: 242.54480329200032

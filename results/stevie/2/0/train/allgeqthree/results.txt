@@ -1,0 +1,4 @@
+allgeqthree(A):- empty(A).
+allgeqthree(A):- head(A,C),tail(A,E),my_succ(B,C),one(D),geq(B,D),allgeqthree(E).
+% accuracy: 0.915
+% learning time: 78.8954706999998

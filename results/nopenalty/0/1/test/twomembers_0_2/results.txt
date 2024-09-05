@@ -1,0 +1,4 @@
+twomembers_0_2(A):- ho_1(A,B,tail),head(B,C),odd(C).
+twomembers_0_2(A):- ho_1(A,C,tail),tail(C,B),ho_157(B,zero).
+% accuracy: 0.5695
+% learning time: 75.14820811400023

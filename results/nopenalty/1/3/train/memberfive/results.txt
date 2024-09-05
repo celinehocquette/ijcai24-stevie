@@ -1,0 +1,4 @@
+memberfive(A):- head(A,F),decrement(F,B),decrement(B,C),decrement(C,D),decrement(D,E),one_in(E).
+memberfive(A):- tail(A,B),memberfive(B).
+% accuracy: 1.0
+% learning time: 26.785544337999454

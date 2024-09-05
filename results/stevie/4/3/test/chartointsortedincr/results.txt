@@ -1,0 +1,4 @@
+chartointsortedincr(A):- ho_10(A,inv_ho_0).
+inv_ho_0(A,B):- ord(A,C),ord(B,D),geq(D,C).
+% accuracy: 1.0
+% learning time: 190.30008631799865

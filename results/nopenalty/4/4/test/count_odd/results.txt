@@ -1,0 +1,3 @@
+count_odd(A,B):- ho_199(A,B,even,odd).
+% accuracy: 1.0
+% learning time: 15.141982

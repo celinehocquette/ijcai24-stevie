@@ -1,0 +1,3 @@
+mapaddone(A,B):- ho_53(A,B,empty,head,increment).
+% accuracy: 1.0
+% learning time: 31.957925625

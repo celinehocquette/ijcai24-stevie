@@ -1,0 +1,3 @@
+mapminusone(A,B):- ho_167(A,B,decrement).
+% accuracy: 1.0
+% learning time: 20.481129825002427

@@ -1,0 +1,3 @@
+chessmapuntil1(A,B):- ho_14(A,neg_pawn),ho_153(B,rank8).
+% accuracy: 0.929
+% learning time: 2.977249743998982

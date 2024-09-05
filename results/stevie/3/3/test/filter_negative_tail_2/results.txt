@@ -1,0 +1,6 @@
+filter_negative_tail_2(A,B):- ho_185(A,C,negative,positive),ho_185(C,B,odd,zero).
+filter_negative_tail_2(A,B):- ho_74(A,C,tail,negative),ho_185(C,B,negative,positive).
+filter_negative_tail_2(A,B):- ho_74(A,C,tail,odd),ho_185(C,B,negative,positive).
+filter_negative_tail_2(A,B):- ho_185(A,C,negative,positive),ho_74(C,B,tail,even).
+% accuracy: 0.6195
+% learning time: 138.96619043999817

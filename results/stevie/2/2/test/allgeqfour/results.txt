@@ -1,0 +1,6 @@
+allgeqfour(A):- head(A,B),tail(A,C),head(C,B).
+allgeqfour(A):- ho_19(A,B,tail,even),head(B,C),tail(B,D),head(D,C).
+allgeqfour(A):- ho_19(A,B,tail,even),head(B,C),tail(B,E),tail(E,D),head(D,C).
+allgeqfour(A):- ho_19(A,B,tail,even),head(A,D),head(B,C),geq(C,D),odd(D).
+% accuracy: 0.4955
+% learning time: 75.8361225839999

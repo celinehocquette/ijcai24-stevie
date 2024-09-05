@@ -1,0 +1,4 @@
+memberfive(A):- ho_1(A,inv_ho_0).
+inv_ho_0(A):- decrement(A,C),decrement(C,D),decrement(D,B),decrement(B,E),one_in(E).
+% accuracy: 1.0
+% learning time: 31.376987755998925

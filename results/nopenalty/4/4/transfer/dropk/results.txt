@@ -1,0 +1,3 @@
+dropk(A,B,C):- ho_180(A,B,C,decrement,tail).
+% accuracy: 1.0
+% learning time: 3.483680542

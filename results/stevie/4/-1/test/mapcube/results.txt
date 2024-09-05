@@ -1,0 +1,4 @@
+mapcube(A,B):- empty(A),empty(B).
+mapcube(A,B):- head(A,C),tail(A,D),head(B,E),tail(B,F),cube(C,E),mapcube(D,F).
+% accuracy: 1.0
+% learning time: 366.317895543998

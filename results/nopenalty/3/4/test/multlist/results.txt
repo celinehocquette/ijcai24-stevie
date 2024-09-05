@@ -1,0 +1,3 @@
+multlist(A,B):- ho_317(A,B,one,mult).
+% accuracy: 1.0
+% learning time: 25.114731399997254

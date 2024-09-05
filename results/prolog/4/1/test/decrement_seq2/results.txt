@@ -1,0 +1,4 @@
+inv_ho_0(A,B,C):- decrement(A,B),decrement(B,D),decrement(D,C).
+decrement_seq2(A):- head(A,D),decrement(D,B),foldl(A,B,C,inv_ho_0),positive(C).
+% accuracy: 1.0
+% learning time: 739.7664735420001

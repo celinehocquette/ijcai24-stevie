@@ -1,0 +1,3 @@
+mapfilter_triple_negative(A,B):- ho_183(A,C,negative,positive),ho_164(C,B,triple).
+% accuracy: 1.0
+% learning time: 780.5289338930015

@@ -1,0 +1,8 @@
+inv_ho_0(A,B):- tail(A,D),tail(D,C),tail(C,B).
+memberfour(A):- head(A,B),decrement(B,C),one_in(C).
+memberfour(A):- ho_1(A,B,inv_ho_0),head(B,C),odd(C).
+inv_ho_0(A,B):- tail(A,B),head(B,C),odd(C).
+memberfour(A):- head(A,C),ho_1(A,D,tail),empty(B),odd(C),ho_1(D,B,tail).
+memberfour(A):- head(A,D),decrement(D,B),decrement(B,C),decrement(C,E),one_in(E).
+% accuracy: 0.5205
+% learning time: 822.1920752470032

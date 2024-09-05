@@ -1,0 +1,4 @@
+chartointsortedincr(A):- head(A,B),tail(A,C),head(C,B),tail(C,D),head(D,B).
+chartointsortedincr(A):- tail(A,B),chartointsortedincr(B).
+% accuracy: 0.722
+% learning time: 1.8215204580000002

@@ -1,0 +1,3 @@
+maxlist(A,B):- ho_18(A,B,empty,zero,max).
+% accuracy: 1.0
+% learning time: 48.888476110998454

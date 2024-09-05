@@ -1,0 +1,3 @@
+count_odd(A,B):- ho_134(A,B,tail,even,odd).
+% accuracy: 1.0
+% learning time: 12.180447389997425

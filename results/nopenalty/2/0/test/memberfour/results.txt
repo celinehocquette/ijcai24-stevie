@@ -1,0 +1,7 @@
+memberfour(A):- ho_14(A,C,tail,head,one_in),tail(C,B),ho_14(C,B,tail,head,even).
+memberfour(A):- head(A,C),ho_42(C,A,B,odd,tail,tail),ho_42(C,A,B,one_in,tail,tail).
+memberfour(A):- ho_14(A,B,tail,head,odd),head(B,C),ho_42(C,A,B,one_in,tail,tail).
+memberfour(A):- ho_14(A,B,tail,head,even),head(B,C),ho_42(C,A,B,one_in,tail,tail).
+memberfour(A):- ho_275(A,C,odd,even),empty(B),head(C,D),ho_42(D,A,B,one_in,tail,tail).
+% accuracy: 0.546
+% learning time: 723.2563939529937

@@ -1,0 +1,4 @@
+memberminusone(A):- ho_19(A,B,tail,minusone),ho_19(A,B,tail,odd).
+memberminusone(A):- head(A,B),minusone(B).
+% accuracy: 1.0
+% learning time: 23.50230867999926

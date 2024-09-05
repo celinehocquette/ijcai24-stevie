@@ -1,0 +1,4 @@
+minlist(A,B):- empty(A),c100(B).
+minlist(A,B):- head(A,C),tail(A,E),minlist(E,D),min(C,D,B).
+% accuracy: 1.0
+% learning time: 329.38994247200026

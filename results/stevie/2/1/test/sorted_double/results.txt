@@ -1,0 +1,3 @@
+sorted_double(A):- ho_64(A,my_double).
+% accuracy: 1.0
+% learning time: 1.3306891190004535

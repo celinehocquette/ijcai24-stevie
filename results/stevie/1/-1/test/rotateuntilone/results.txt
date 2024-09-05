@@ -1,0 +1,4 @@
+rotateuntilone(A,B):- rotate1(A,B),head(B,C),one(C).
+rotateuntilone(A,B):- rotate1(A,C),rotateuntilone(C,B).
+% accuracy: 1.0
+% learning time: 2.2158980310000516

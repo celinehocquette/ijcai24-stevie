@@ -1,0 +1,3 @@
+iterateaddlast3k(A,B,C):- ho_183(A,B,D,zero_in,addlast1),ho_183(A,D,E,zero_in,addlast1),ho_183(A,E,C,zero_in,addlast1).
+% accuracy: 1.0
+% learning time: 15.500846

@@ -1,0 +1,4 @@
+f(A,B):- ho_187(B,A,empty,head,inv_ho_0).
+inv_ho_0(A,B):- char_to_int(A,C),decrement(C,E),decrement(E,D),int_to_char(D,B).
+% accuracy: 1.0
+% learning time: 360.98774411401246

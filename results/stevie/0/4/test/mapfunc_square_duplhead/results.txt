@@ -1,0 +1,3 @@
+mapfunc_square_duplhead(A,B):- tail(B,C),ho_185(A,C,square).
+% accuracy: 0.997
+% learning time: 314.1656199629997

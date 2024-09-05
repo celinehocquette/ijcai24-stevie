@@ -1,0 +1,4 @@
+filter_even_tail_3(A,B):- ho_1(A,C,tail),ho_489(C,B,even,odd).
+filter_even_tail_3(A,B):- ho_1(A,D,tail),ho_489(D,C,even,odd),tail(C,B).
+% accuracy: 0.763
+% learning time: 294.92269861299974
